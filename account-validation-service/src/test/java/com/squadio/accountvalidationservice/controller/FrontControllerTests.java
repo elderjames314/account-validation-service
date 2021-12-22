@@ -9,6 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -31,6 +32,7 @@ public class FrontControllerTests {
     String token = null;
 
     @Test
+    @DisplayName("Should authenticate user when valid credential is provided")
     @Order(1)
      public void authentication_ValidUserCredentials_ReturnedSuccess() throws JSONException {
 
@@ -58,6 +60,7 @@ public class FrontControllerTests {
      }
 
     @Test
+    @DisplayName("Should fail authentication when invalid credential is provided")
     @Order(2)
     public void authentication_InValidUserCredentials_ReturnedSuccess() throws JSONException {
 
@@ -79,6 +82,7 @@ public class FrontControllerTests {
     }
 
     @Test
+    @DisplayName("Should return list of statement when valid params is provided")
     @Order(3)
     public void search_ValidParams_ReturnedSuccess() throws JSONException {
 
@@ -104,6 +108,7 @@ public class FrontControllerTests {
     }
 
     @Test
+    @DisplayName("Should get account statment upon provided valid account id")
     @Order(4)
     public void getUserAccountStatement_ValidUserAccountId_ReturnedSuccess() throws JSONException {
 
@@ -126,6 +131,7 @@ public class FrontControllerTests {
     }
 
     @Test
+    @DisplayName("should get accounts for the user ID provided")
     @Order(5)
     public void getUserAccounts_ValidUserIdAndValidToken_ReturnedSuccess() throws JSONException {
 
@@ -168,6 +174,7 @@ public class FrontControllerTests {
 
 
     @Test
+    @DisplayName("Should failed when token is not provided or expired")
     @Order(6)
     public void getUserAccounts_withoutBearerToken_ReturnedSuccess() throws JSONException {
 
@@ -181,6 +188,7 @@ public class FrontControllerTests {
 
 
     @Test
+    @DisplayName("Should get the user detail when username is provided")
     @Order(7)
     public void findUserByUsername_ValidUsername_ReturnedSuccess() throws JSONException {
 
@@ -224,6 +232,7 @@ public class FrontControllerTests {
 
 
     @Test
+    @DisplayName("Should get all the users in the system")
     @Order(7)
     public void getAllLoggedInUsers__ReturnedSuccess() throws JSONException {
 

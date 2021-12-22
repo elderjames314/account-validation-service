@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import javax.swing.plaf.nimbus.State;
+import java.net.URLEncoder;
 import java.util.*;
 
 /**
@@ -37,6 +38,7 @@ public class RestClientService {
 
     //get user statement
     public List<Statement> getUserStatement(StatementRequest statementRequest) {
+
         try {
             HttpEntity<StatementRequest> request = new HttpEntity<>(statementRequest);
             ResponseEntity<List<Statement>> statements = restTemplate.exchange(userAccountStatementUrl, HttpMethod.POST, request, new ParameterizedTypeReference<List<Statement>>() {});
@@ -75,7 +77,6 @@ public class RestClientService {
             log.info("userInformationUrl: "+ userInformationUrl);
             Map<String, String> params = new HashMap<>();
             params.put("username", username);
-           // RestTemplate restTemplate = new RestTemplate();
             user = restTemplate.getForObject(userInformationUrl, User.class, params);
             log.info("RESPONSE: "+ user);
         }catch (Exception ex) {
@@ -91,7 +92,6 @@ public class RestClientService {
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         HttpEntity<String> httpEntity = new HttpEntity<>("parameters", headers);
-       // RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<List<User>> accounts =
                 restTemplate.exchange(allUserUrl, HttpMethod.GET, httpEntity, new ParameterizedTypeReference<List<User>>() {});
 

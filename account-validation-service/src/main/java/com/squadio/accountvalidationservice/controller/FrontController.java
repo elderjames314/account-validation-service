@@ -56,7 +56,7 @@ public class FrontController {
 
 
     @GetMapping("/logout")
-    public ResponseEntity<?> logout(HttpServletRequest request) {
+    public ResponseEntity logout(HttpServletRequest request) {
         log.info("LOGGING OUT");
         if(loggedInUsername == null) {
             return  ResponseEntity.ok("Please login first");
@@ -76,33 +76,17 @@ public class FrontController {
 
     }
     private ResponseEntity<String> checkIfSameUserloggedOn(HttpServletRequest request) {
-        if (jwtUtil.validateToken(generedToken)) {
-            // not match return error
-            if (!loggedIp.equals(request.getRemoteAddr())){
-                //return 401
-                return new ResponseEntity<>("Unauthorized", HttpStatus.UNAUTHORIZED);
-            }
+        if (jwtUtil.validateToken(generedToken) && !loggedIp.equals(request.getRemoteAddr())) {
+            return new ResponseEntity<>("Unauthorized", HttpStatus.UNAUTHORIZED);
         }
         return null;
     }
     @PostMapping("/authenticate")
-    public ResponseEntity<?> authenticate(@Valid @RequestBody AuthRequest authRequest, HttpServletRequest request) throws Exception {
+    public ResponseEntity authenticate(@Valid @RequestBody AuthRequest authRequest, HttpServletRequest request) throws Exception {
         log.info("AUTHENTICATING USER");
         AuthResponse authResponse = new AuthResponse();
         ErrorReponse errorReponse = new ErrorReponse();
         log.info("getLoggedInUser: "+ common.getLoggedInUser());
-        /*if(loggedInUsername != null) {
-            log.info("loggedIp: "+ loggedIp);
-            log.info("Now IP: "+ request.getRemoteAddr());
-            if (jwtUtil.validateToken(generedToken)) {
-                if(request.getRemoteAddr().equals(loggedIp)){
-                    //it means that this user has already logged in before
-                    //therefor, he must logged out before loggin back
-                    return ResponseEntity.ok("it appears that you have already logged in before, pls logout and login back");
-                }
-            }
-        }*/
-
         try {
             authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword())
@@ -137,7 +121,7 @@ public class FrontController {
 
     //search request
     @PostMapping("/statements/search")
-    public ResponseEntity<?> search(@Valid @RequestBody SearchModel searchModel) {
+    public ResponseEntity search(@Valid @RequestBody SearchModel searchModel) {
         AppResponse response = accountValidationService.search(searchModel);
         return ResponseEntity.ok(response);
     }
@@ -154,7 +138,7 @@ public class FrontController {
 
     //get user accounts by user id
     @GetMapping("/accounts/{user_id}")
-    public ResponseEntity<?> getUserAccounts(@Valid @PathVariable String user_id) {
+    public ResponseEntity getUserAccounts(@Valid @PathVariable String user_id) {
         log.info("FETCHING USER ACCOUNT DETAIL");
         AppResponse response = accountValidationService.getUserAccounts(user_id);
         if(response.getResponse().getResponseCode().equals("87")) {
@@ -166,7 +150,7 @@ public class FrontController {
 
     //get user
     @GetMapping("/users/{username}")
-    public ResponseEntity<?> findUserByUsername(@Valid @PathVariable String username) {
+    public ResponseEntity findUserByUsername(@Valid @PathVariable String username) {
         log.info("STARTED");
         ResponseEntity<AppResponse> appResponse = runValidationChecks(username);
         if (appResponse != null) return appResponse;
@@ -176,7 +160,7 @@ public class FrontController {
 
     //get all users
     @GetMapping("/users")
-    public ResponseEntity<?> getAllLoggedInUsers() {
+    public ResponseEntity getAllLoggedInUsers() {
         if(!common.isAdmin())  {
             NormalResponse response = new NormalResponse();
             response.setResponseMessage("You do not have required privilege to perform this operation");
@@ -190,11 +174,11 @@ public class FrontController {
 
 
 
-    private ResponseEntity<AppResponse> runValidationChecks(String username) {
+    private ResponseEntity runValidationChecks(String username) {
         //do this checked if and only if the logged in user is not admin
         if(!common.isAdmin()) {
             //checked if logged in is this user
-            ResponseEntity<AppResponse> appResponse =  common.checkLoggedInUser(username);
+            ResponseEntity  appResponse =  common.checkLoggedInUser(username);
             if (appResponse != null) return appResponse;
         }
         return null;
@@ -202,12 +186,9 @@ public class FrontController {
 
     private ResponseEntity<String> checkIfTokeHasExpired(String generedToken) {
         //checked if token is expred
-        if(loggedInUsername != null) {
-            //it means the user has logged in before
-            if(jwtUtil.isTokenExpired(generedToken)) {
-                String message = "Token has expired. please try and log in again!";
-                return ResponseEntity.ok(message);
-            }
+        if(loggedInUsername != null && jwtUtil.isTokenExpired(generedToken)) {
+            String message = "Token has expired. please try and log in again!";
+            return ResponseEntity.ok(message);
         }
         return null;
     }

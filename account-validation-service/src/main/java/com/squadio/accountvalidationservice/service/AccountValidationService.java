@@ -6,6 +6,7 @@ import com.squadio.accountvalidationservice.remoteservice.model.User;
 import com.squadio.accountvalidationservice.utility.Common;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.text.ParseException;
@@ -30,14 +31,22 @@ public class AccountValidationService {
 
     private Map<String, String> userMap = new HashMap<>();
 
+    private final static String DATE_FORMAT = "yyyy-MM-dd";
+    private final  String DATE_FORMAT2 = "yyyy-MM-dd";
+    @Value("${RESPONSE_SUCCESS_CODE}")
+    private String responseSuccessCode;
+    @Value("${RESPONSE_SUCCESS_MESSAGE}")
+    private String responseSuccessMessage;
+
     @Autowired
     private Common common;
+
 
     private static boolean getThreeMonthAccountStatement(Statement statement) {
         boolean b = false;
         try {
-            Date created = new SimpleDateFormat("yyyy-MM-dd").parse(statement.getDate());
-            Date todayDate = new SimpleDateFormat("yyyy-MM-dd").parse(getTodayDate());
+            Date created = new SimpleDateFormat(DATE_FORMAT).parse(statement.getDate());
+            Date todayDate = new SimpleDateFormat(DATE_FORMAT).parse(getTodayDate());
             log.info("today: "+ todayDate);
             Date threeMonthBack = Date.from(LocalDate.of(todayDate.getYear(), todayDate.getMonth(), todayDate.getDay()).minusMonths(3).atStartOfDay(ZoneId.systemDefault()).toInstant());
             log.info("threeMonthBack: "+ threeMonthBack);
@@ -57,62 +66,46 @@ public class AccountValidationService {
 
 
 
+
     //search
     public AppResponse search(SearchModel searchModel) {
         NormalResponse normalResponse = new NormalResponse();
-        normalResponse.setResponseCode("000");
-        normalResponse.setResponseMessage("SUCCESS");
+        normalResponse.setResponseCode(responseSuccessCode);
+        normalResponse.setResponseMessage(responseSuccessMessage);
         AppResponse response = new AppResponse();
         try {
             //if not paramets specify
             StatementRequest statementRequest = new StatementRequest(searchModel.getUserId());
             List<Statement> statements = restClientService.getUserStatement(statementRequest);
-            if(statements.size() > 0) {
-                //we have statements
-                List<Statement> statementResults;
-                //this means non of the parameters given, therefore return three months back statements
-                if(searchModel.getToAmount() == 0.0 && searchModel.getFromAmount() == 0.0
-                        && searchModel.getFromDate() == null && searchModel.getToDate() == null){
-                    log.info("search statements when no params given");
-                    statementResults = statements.stream().filter(AccountValidationService::getThreeMonthAccountStatement).collect(Collectors.toList());
-
-                }
-                else {
-                    log.info("search based on the params given");
-                    statementResults = statements.stream().filter(statement -> {
-                        boolean b = false;
-                        try {
-                            Date created = new SimpleDateFormat("yyyy-MM-dd").parse(statement.getDate());
-                            b = created.before(searchModel.getToDate()) && created.after(searchModel.getFromDate());
-                        } catch (ParseException e) {
-                            e.printStackTrace();
-                            log.info("Error occured while search request with params given");
+            if(statements != null) {
+                if(statements.size() > 0) {
+                    //we have statements
+                    List<Statement> statementResults;
+                    //this means non of the parameters given, therefore return three months back statements
+                    statementResults = getStatements(searchModel, statements);
+                    List<Statement> statementWithHashedAccount = new ArrayList<>();
+                    if(statementResults.size() > 0) {
+                        for (Statement statement : statementResults) {
+                            String hashedAccount = common.hashedString(statement.getAccountNumber());
+                            Statement newStatement = new StatementBuilder()
+                                    .setAccountNumber(hashedAccount)
+                                    .setAmount(statement.getAmount())
+                                    .setDate(statement.getDate())
+                                    .setDescription(statement.getDescription())
+                                    .build();
+                            statementWithHashedAccount.add(newStatement);
                         }
-                        return b;
-                    }).filter(statement -> Double.parseDouble(statement.getAmount()) >= searchModel.getFromAmount()
-                            && Double.parseDouble(statement.getAmount()) <= searchModel.getToAmount() ).collect(Collectors.toList());
-                }
-                List<Statement> statementWithHashedAccount = new ArrayList<>();
-                if(statementResults.size() > 0) {
-                    for (Statement statement : statementResults) {
-                        String hashedAccount = common.hashedString(statement.getAccountNumber());
-                        Statement newStatement = new StatementBuilder()
-                                .setAccountNumber(hashedAccount)
-                                .setAmount(statement.getAmount())
-                                .setDate(statement.getDate())
-                                .setDescription(statement.getDescription())
-                                .build();
-                        statementWithHashedAccount.add(newStatement);
+                        response.setMessages(statementWithHashedAccount);
+                    }else {
+                        normalResponse.setResponseMessage("No statement found for the params given!");
                     }
-                    response.setMessages(statementWithHashedAccount);
-                }else {
-                    normalResponse.setResponseMessage("No statement found for the params given!");
-                }
 
-            }else {
-                normalResponse.setResponseMessage("No statements for this account: "+ searchModel.getUserId()+ " yet !");
-                response.setMessages(new ArrayList());
+                }else {
+                    normalResponse.setResponseMessage("No statements for this account: "+ searchModel.getUserId()+ " yet !");
+                    response.setMessages(new ArrayList());
+                }
             }
+
 
         }catch (Exception ex) {
             ex.printStackTrace();
@@ -124,6 +117,32 @@ public class AccountValidationService {
         return response;
     }
 
+    private List<Statement> getStatements(SearchModel searchModel, List<Statement> statements) {
+        List<Statement> statementResults;
+        if(searchModel.getToAmount() == 0.0 && searchModel.getFromAmount() == 0.0
+                && searchModel.getFromDate() == null && searchModel.getToDate() == null){
+            log.info("search statements when no params given");
+            statementResults = statements.stream().filter(AccountValidationService::getThreeMonthAccountStatement).collect(Collectors.toList());
+
+        }
+        else {
+            log.info("search based on the params given");
+            statementResults = statements.stream().filter(statement -> {
+                boolean b = false;
+                try {
+                    Date created = new SimpleDateFormat(DATE_FORMAT2).parse(statement.getDate());
+                    b = created.before(searchModel.getToDate()) && created.after(searchModel.getFromDate());
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                    log.info("Error occured while search request with params given");
+                }
+                return b;
+            }).filter(statement -> Double.parseDouble(statement.getAmount()) >= searchModel.getFromAmount()
+                    && Double.parseDouble(statement.getAmount()) <= searchModel.getToAmount() ).collect(Collectors.toList());
+        }
+        return statementResults;
+    }
+
     //get user statments
     public AppResponse getUserStatement(StatementRequest statementRequest) {
         NormalResponse normalResponse = new NormalResponse();
@@ -131,8 +150,8 @@ public class AccountValidationService {
         try{
             if(common.isAdmin()) {
                 List<Statement> statements = restClientService.getUserStatement(statementRequest);
-                normalResponse.setResponseMessage("SUCCESS");
-                normalResponse.setResponseCode("000");
+                normalResponse.setResponseMessage(responseSuccessMessage);
+                normalResponse.setResponseCode(responseSuccessCode);
                 if(statements.size() > 0 ) {
                     response.setMessages(statements);
                 }else {
@@ -147,8 +166,8 @@ public class AccountValidationService {
                 log.info("logged ID: "+ loggedOnUserId);
                 if(loggedOnUserId.equals(statementRequest.getAccountId())) {
                     List<UserAccount> accounts = restClientService.getUserAccount(statementRequest.getAccountId());
-                    normalResponse.setResponseMessage("SUCCESS");
-                    normalResponse.setResponseCode("000");
+                    normalResponse.setResponseMessage(responseSuccessMessage);
+                    normalResponse.setResponseCode(responseSuccessCode);
                     response.setMessages(accounts);
                 }else {
                     //it means you the user_id passed is not yours
@@ -174,8 +193,8 @@ public class AccountValidationService {
         try{
             if(common.isAdmin()) {
                 List<UserAccount> accounts = restClientService.getUserAccount(user_id);
-                normalResponse.setResponseMessage("SUCCESS");
-                normalResponse.setResponseCode("000");
+                normalResponse.setResponseMessage(responseSuccessMessage);
+                normalResponse.setResponseCode(responseSuccessCode);
                 if(accounts.size() > 0) {
                     response.setMessages(accounts);
                 }else {
@@ -217,8 +236,8 @@ public class AccountValidationService {
         try {
             List<User> users =  restClientService.getListOfUsers();
             response.setMessages(users);
-            normalResponse.setResponseCode("000");
-            normalResponse.setResponseMessage("SUCCESS");
+            normalResponse.setResponseCode(responseSuccessCode);
+            normalResponse.setResponseMessage(responseSuccessMessage);
 
         }catch (Exception ex) {
             ex.printStackTrace();
@@ -235,8 +254,8 @@ public class AccountValidationService {
         AppResponse response = new AppResponse();
         try {
             User user = restClientService.FindUserByUsername(username);
-            normalResponse.setResponseCode("000");
-            normalResponse.setResponseMessage("SUCCESS");
+            normalResponse.setResponseCode(responseSuccessCode);
+            normalResponse.setResponseMessage(responseSuccessMessage);
             response.setData(user);
             //clear map
             userMap.clear();

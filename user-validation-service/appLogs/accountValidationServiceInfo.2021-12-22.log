@@ -296,3 +296,232 @@
 2021/12/22 00:36:16.954 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
 2021/12/22 00:36:16.954 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
 2021/12/22 00:36:17.338 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Tue, 21 Dec 2021 23:36:17 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 15:06:58.767 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/22 15:07:03.775 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/22 15:07:08.782 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 87736 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/22 15:07:08.783 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/22 15:07:09.466 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/22 15:07:09.472 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/22 15:07:09.473 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/22 15:07:09.473 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/22 15:07:09.526 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/22 15:07:09.526 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 713 ms 
+2021/12/22 15:07:09.732 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ccd1bc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@303a5119, org.springframework.security.web.header.HeaderWriterFilter@783efb48, org.springframework.security.web.authentication.logout.LogoutFilter@982bb90, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1da6ee17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bcb79c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12db3386, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@878537d, org.springframework.security.web.session.SessionManagementFilter@38548b19, org.springframework.security.web.access.ExceptionTranslationFilter@5bfc257, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@460b6d54] 
+2021/12/22 15:07:10.027 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/22 15:07:10.046 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/22 15:07:10.054 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.561 seconds (JVM running for 27.136) 
+2021/12/22 15:07:36.638 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/22 15:07:36.638 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/22 15:07:36.639 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/22 15:07:36.761 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:07:36.762 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:07:36.765 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:07:36.765 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:07:36.765 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:07:36.765 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:07:36.888 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:07:37.293 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 15:07:37.313 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:07:37.313 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:07:37.314 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:07:37.314 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:07:37.314 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:07:37.314 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:07:37.315 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:07:37.421 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 15:07:37.422 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 15:07:41.033 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 14:07:40 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 15:07:41.131 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:07:41.131 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:07:41.131 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:07:41.131 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:07:41.131 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:07:41.131 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:07:41.132 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:07:41.161 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 15:07:41.161 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 15:07:41.716 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 15:07:41.716 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 15:07:41.716 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 15:07:41.716 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:07:41.758 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:07:41.758 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:07:41.760 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 15:07:41.785 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:07:41.805 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:07:42.726 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 14:07:42 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 15:30:34.253 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/22 15:30:39.263 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/22 15:30:44.267 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 88165 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/22 15:30:44.268 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/22 15:30:44.819 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/22 15:30:44.824 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/22 15:30:44.824 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/22 15:30:44.824 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/22 15:30:44.871 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/22 15:30:44.872 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 576 ms 
+2021/12/22 15:30:45.018 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29fc1a2b, org.springframework.security.web.context.SecurityContextPersistenceFilter@d1a10ac, org.springframework.security.web.header.HeaderWriterFilter@c446b14, org.springframework.security.web.authentication.logout.LogoutFilter@4bb8855f, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1da6ee17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31fc71ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a7f0ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d0b0fd4, org.springframework.security.web.session.SessionManagementFilter@75b3673, org.springframework.security.web.access.ExceptionTranslationFilter@3e83c18, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a4ba480] 
+2021/12/22 15:30:45.313 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/22 15:30:45.332 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/22 15:30:45.340 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.327 seconds (JVM running for 26.789) 
+2021/12/22 15:31:03.537 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/22 15:31:03.539 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/22 15:31:03.552 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms 
+2021/12/22 15:31:03.837 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:31:03.870 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:31:03.980 [http-nio-8080-exec-2] WARN  o.s.s.c.b.BCryptPasswordEncoder - Encoded password does not look like BCrypt 
+2021/12/22 15:31:03.984 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 15:48:09.083 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/22 15:48:14.092 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/22 15:48:19.100 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 88380 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/22 15:48:19.101 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/22 15:48:19.652 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/22 15:48:19.656 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/22 15:48:19.656 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/22 15:48:19.657 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/22 15:48:19.704 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/22 15:48:19.704 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 574 ms 
+2021/12/22 15:48:19.849 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76075d65, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e46d648, org.springframework.security.web.header.HeaderWriterFilter@73877e19, org.springframework.security.web.authentication.logout.LogoutFilter@3013909b, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@91c4a3f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b0b4d53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bcb79c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a4ba480, org.springframework.security.web.session.SessionManagementFilter@3af356f, org.springframework.security.web.access.ExceptionTranslationFilter@6050462a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b587673] 
+2021/12/22 15:48:20.129 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/22 15:48:20.147 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/22 15:48:20.153 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.32 seconds (JVM running for 26.798) 
+2021/12/22 15:48:45.425 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/22 15:48:45.426 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/22 15:48:45.426 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms 
+2021/12/22 15:48:45.533 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:48:45.534 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:48:45.536 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:48:45.536 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:48:45.536 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:48:45.536 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:48:45.648 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:48:46.038 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 15:48:46.064 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:48:46.065 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:48:46.066 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:48:46.066 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:48:46.066 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:48:46.066 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:48:46.067 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:48:46.171 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 15:48:46.172 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 15:48:49.254 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 14:48:49 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 15:48:49.355 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:48:49.355 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:48:49.356 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:48:49.356 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:48:49.356 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:48:49.356 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:48:49.356 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:48:49.387 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 15:48:49.387 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 15:48:49.750 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 15:48:49.751 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 15:48:49.751 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 15:48:49.751 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:48:49.793 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:48:49.793 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:48:49.795 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 15:48:49.819 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 15:48:49.838 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 15:48:50.635 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 14:48:50 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 17:57:48.553 [http-nio-8080-exec-3] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 17:57:55.891 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 17:57:55.893 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 17:57:55.896 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 17:57:55.897 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 17:57:55.897 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 17:57:55.897 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 17:57:55.899 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 17:58:08.761 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 17:58:08.761 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 17:58:09.224 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 17:58:09.224 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 17:58:09.224 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 17:58:09.224 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 18:04:55.410 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/22 18:05:00.418 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/22 18:05:05.427 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 90002 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/22 18:05:05.427 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/22 18:05:05.971 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/22 18:05:05.976 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/22 18:05:05.976 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/22 18:05:05.976 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/22 18:05:06.021 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/22 18:05:06.021 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 568 ms 
+2021/12/22 18:05:06.166 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29fc1a2b, org.springframework.security.web.context.SecurityContextPersistenceFilter@d1a10ac, org.springframework.security.web.header.HeaderWriterFilter@c446b14, org.springframework.security.web.authentication.logout.LogoutFilter@4bb8855f, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@410e94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31fc71ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a7f0ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d0b0fd4, org.springframework.security.web.session.SessionManagementFilter@75b3673, org.springframework.security.web.access.ExceptionTranslationFilter@3e83c18, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a4ba480] 
+2021/12/22 18:05:06.446 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/22 18:05:06.464 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/22 18:05:06.470 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.291 seconds (JVM running for 26.793) 
+2021/12/22 18:05:35.890 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/22 18:05:35.891 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/22 18:05:35.892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/22 18:05:35.988 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 18:05:35.989 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 18:05:35.991 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 18:05:35.991 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 18:05:35.991 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 18:05:35.991 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 18:05:36.102 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 18:05:36.521 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 18:05:36.547 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 18:05:36.547 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 18:05:36.547 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 18:05:36.547 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 18:05:36.547 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 18:05:36.548 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 18:05:36.548 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 18:05:36.648 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 18:05:36.648 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 18:05:38.418 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 17:05:38 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 18:05:38.517 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 18:05:38.518 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 18:05:38.518 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 18:05:38.518 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 18:05:38.518 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 18:05:38.518 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 18:05:38.518 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 18:05:38.552 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 18:05:38.552 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 18:05:39.367 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 18:05:39.367 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 18:05:39.367 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 18:05:39.367 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 18:05:39.416 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 18:05:39.416 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 18:05:39.419 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 18:05:39.446 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 18:05:39.471 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 18:05:39.762 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 17:05:39 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 18:43:41.211 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/22 18:43:46.226 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/22 18:43:51.236 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 90548 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/22 18:43:51.237 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/22 18:43:52.097 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/22 18:43:52.106 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/22 18:43:52.107 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/22 18:43:52.107 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/22 18:43:52.179 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/22 18:43:52.179 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 903 ms 
+2021/12/22 18:43:52.516 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15ac59c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e2f86e6, org.springframework.security.web.header.HeaderWriterFilter@5c82cd4f, org.springframework.security.web.authentication.logout.LogoutFilter@4393593c, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@52a36910, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17b64941, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5411dd90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a7d1b47, org.springframework.security.web.session.SessionManagementFilter@4992613f, org.springframework.security.web.access.ExceptionTranslationFilter@bc4d5e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@151db587] 
+2021/12/22 18:43:52.800 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/22 18:43:52.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/22 18:43:52.830 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.972 seconds (JVM running for 27.653) 

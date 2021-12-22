@@ -24,8 +24,6 @@ public class JwtUtil {
     private String secret;
     @Value("${SESSION_EXPIRATION_TIMED_OUT}")
     private int sessionExpirationTimedOut;
-    @Autowired
-    private Common common;
 
     public static final String IP = "ip";
 
@@ -49,19 +47,11 @@ public class JwtUtil {
         return extractExpiration(token).before(new Date());
     }
 
-    /*public List getClientIp(String token) {
-        return extractClaim(token, claims -> (List) claims.get(IP));
-    }
-
-     */
 
     public String generateToken(String username, HttpServletRequest request) {
         Map<String, Object> claims = new HashMap<>();
-       // claims.put("ip",getClientIp(common.getClientIp(request)));
         return createToken(claims, username);
     }
-
-
 
     private String createToken(Map<String, Object> claims, String subject) {
 

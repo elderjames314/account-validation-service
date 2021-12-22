@@ -1,5 +1,6 @@
 package com.squadio.accountvalidationservice.remoteservice;
 
+import com.google.gson.Gson;
 import com.squadio.accountvalidationservice.model.Statement;
 import com.squadio.accountvalidationservice.model.StatementRequest;
 import com.squadio.accountvalidationservice.model.UserAccount;
@@ -39,6 +40,7 @@ public class RestClientService {
         try {
             HttpEntity<StatementRequest> request = new HttpEntity<>(statementRequest);
             ResponseEntity<List<Statement>> statements = restTemplate.exchange(userAccountStatementUrl, HttpMethod.POST, request, new ParameterizedTypeReference<List<Statement>>() {});
+            log.info("List of the statetment: {}", new Gson().toJson(statements));
             return  statements.getBody();
         }catch (Exception ex) {
             log.error("Error occured while fetching user account statement: "+ ex);
@@ -47,7 +49,6 @@ public class RestClientService {
         }
 
     }
-
 
     //get user account
     public List<UserAccount> getUserAccount(String user_id) {
@@ -59,7 +60,7 @@ public class RestClientService {
         params.put("user-id", user_id);
         ResponseEntity<List<UserAccount>> accounts =
                 restTemplate.exchange(singleAccountUrl, HttpMethod.GET, httpEntity, new ParameterizedTypeReference<List<UserAccount>>() {}, params);
-        //ResponseEntity<List<UserAccount>> accounts = restTemplate.exchange(singleAccountUrl, new ParameterizedTypeReference<List<UserAccount>>() {}, params);
+        log.info("fetching the list of account for: {} . list of the accounts: {}", user_id, new Gson().toJson(accounts));
         return accounts.getBody();
     }
 
@@ -95,7 +96,6 @@ public class RestClientService {
                 restTemplate.exchange(allUserUrl, HttpMethod.GET, httpEntity, new ParameterizedTypeReference<List<User>>() {});
 
         log.info("USERS: "+ accounts);
-
         return accounts.getBody();
     }
 

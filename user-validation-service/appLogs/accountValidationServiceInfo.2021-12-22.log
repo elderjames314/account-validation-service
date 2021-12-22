@@ -525,3 +525,493 @@
 2021/12/22 18:43:52.800 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
 2021/12/22 18:43:52.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
 2021/12/22 18:43:52.830 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.972 seconds (JVM running for 27.653) 
+2021/12/22 19:08:54.085 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/22 19:08:59.097 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/22 19:09:04.102 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 90917 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/22 19:09:04.103 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/22 19:09:04.803 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/22 19:09:04.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/22 19:09:04.810 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/22 19:09:04.810 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/22 19:09:04.871 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/22 19:09:04.871 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 733 ms 
+2021/12/22 19:09:05.071 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@460b6d54, org.springframework.security.web.context.SecurityContextPersistenceFilter@3af356f, org.springframework.security.web.header.HeaderWriterFilter@231baf51, org.springframework.security.web.authentication.logout.LogoutFilter@7a639ec5, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@3af9aa66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e46d648, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@303a5119, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cf87cfd, org.springframework.security.web.session.SessionManagementFilter@4e8e8621, org.springframework.security.web.access.ExceptionTranslationFilter@340b7ef6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d8126f] 
+2021/12/22 19:09:05.359 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/22 19:09:05.378 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/22 19:09:05.385 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.628 seconds (JVM running for 27.449) 
+2021/12/22 19:24:20.082 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/22 19:24:20.085 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/22 19:24:20.110 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms 
+2021/12/22 19:24:20.368 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:24:20.369 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:24:20.379 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:24:20.379 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:24:20.379 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:24:20.379 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:24:20.559 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:24:21.215 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:24:21.233 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:24:21.233 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:24:21.233 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:24:21.233 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:24:21.233 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:24:21.233 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:24:21.234 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:24:21.352 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 19:24:21.353 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 19:24:24.133 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 18:24:23 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 19:24:24.256 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:24:24.256 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:24:24.256 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:24:24.256 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:24:24.256 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:24:24.256 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:24:24.257 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:24:24.291 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 19:24:24.291 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 19:24:24.637 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 19:24:24.638 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 19:24:24.638 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 19:24:24.638 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:24:24.685 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:24:24.686 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:24:24.688 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 19:24:24.713 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:24:24.734 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:24:24.734 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:24:24.734 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:24:24.734 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:24:24.734 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:24:24.735 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:24:24.735 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:24:25.441 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 18:24:25 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 19:27:53.453 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:27:53.454 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:27:53.454 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:27:53.454 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:27:53.456 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:27:53.456 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:27:53.456 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:27:53.818 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:27:53.846 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:27:53.847 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:27:53.847 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:27:53.847 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:27:53.847 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:27:53.847 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:27:53.848 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:27:53.948 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 19:27:53.948 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 19:27:54.342 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 18:27:54 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 19:27:54.437 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:27:54.438 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:27:54.438 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:27:54.438 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:27:54.438 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:27:54.438 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:27:54.438 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:27:54.471 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 19:27:54.472 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 19:27:55.158 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 19:27:55.158 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 19:27:55.158 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 19:27:55.158 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:27:55.203 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:27:55.204 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:27:55.206 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 19:27:55.231 [http-nio-8080-exec-1] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:27:55.254 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:27:55.254 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:27:55.254 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:27:55.254 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:27:55.255 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:27:55.255 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:27:55.255 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:27:55.578 [http-nio-8080-exec-10] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 18:27:55 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 19:54:53.766 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:54:53.777 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:54:53.786 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:54:53.786 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:54:53.786 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:54:53.788 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:54:53.813 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:54:54.430 [http-nio-8080-exec-4] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:54:54.467 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:54:54.467 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:54:54.467 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:54:54.467 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:54:54.467 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:54:54.467 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:54:54.468 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:54:54.590 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 19:54:54.591 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 19:54:56.175 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 18:54:55 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 19:54:56.291 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:54:56.291 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:54:56.291 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:54:56.291 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:54:56.291 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:54:56.291 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:54:56.292 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:54:56.334 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 19:54:56.336 [http-nio-8080-exec-2] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 19:54:56.811 [http-nio-8080-exec-2] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 19:54:56.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 19:54:56.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 19:54:56.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:54:56.861 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:54:56.861 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:54:56.868 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 19:54:56.900 [http-nio-8080-exec-5] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:54:56.933 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:54:56.933 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:54:56.933 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:54:56.933 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:54:56.933 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:54:56.933 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:54:56.934 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:54:57.598 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 18:54:57 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 19:59:10.946 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:10.946 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:10.947 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:10.947 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:10.947 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:10.947 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:10.949 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:11.552 [http-nio-8080-exec-7] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:59:11.587 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:11.587 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:11.587 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:11.587 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:11.587 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:11.587 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:11.588 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:11.707 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 19:59:11.707 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 19:59:12.136 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 18:59:12 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 19:59:12.270 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:12.270 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:12.270 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:12.270 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:12.270 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:12.270 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:12.271 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:12.311 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 19:59:12.311 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 19:59:12.561 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 19:59:12.561 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 19:59:12.561 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 19:59:12.561 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:12.611 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:12.612 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:12.618 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 19:59:12.645 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:59:12.671 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:12.671 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:12.671 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:12.671 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:12.671 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:12.671 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:12.672 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:13.090 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 18:59:12 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 19:59:56.902 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:56.902 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:56.902 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:56.903 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:56.903 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:56.905 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:56.905 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:57.237 [http-nio-8080-exec-12] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:59:57.257 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:57.257 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:57.258 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:57.258 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:57.258 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:57.258 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:57.258 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:57.339 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 19:59:57.340 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 19:59:57.852 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 18:59:57 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 19:59:57.947 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:57.947 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:57.948 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:57.949 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:57.949 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:57.949 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:57.949 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:57.980 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 19:59:57.980 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 19:59:58.220 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 19:59:58.221 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 19:59:58.221 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 19:59:58.222 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:58.268 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:58.269 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:58.270 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 19:59:58.298 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 19:59:58.320 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 19:59:58.320 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 19:59:58.321 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 19:59:58.322 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 19:59:58.322 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 19:59:58.322 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 19:59:58.322 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 19:59:58.605 [http-nio-8080-exec-12] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 18:59:58 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 20:12:40.933 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:12:40.935 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:12:40.937 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:12:40.937 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:12:40.937 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:12:40.937 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:12:40.939 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:12:41.369 [http-nio-8080-exec-7] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:12:41.404 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:12:41.407 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:12:41.407 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:12:41.407 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:12:41.407 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:12:41.407 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:12:41.408 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:12:41.500 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 20:12:41.501 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 20:12:42.058 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 19:12:41 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 20:12:42.171 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:12:42.171 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:12:42.172 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:12:42.172 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:12:42.172 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:12:42.172 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:12:42.172 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:12:42.205 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 20:12:42.206 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 20:12:42.440 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 20:12:42.440 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 20:12:42.440 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 20:12:42.440 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:12:42.483 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:12:42.529 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:12:42.533 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 20:12:42.562 [http-nio-8080-exec-1] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:12:42.588 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:12:42.589 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:12:42.589 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:12:42.589 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:12:42.589 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:12:42.589 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:12:42.590 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:12:42.865 [http-nio-8080-exec-8] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 19:12:42 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 20:16:25.633 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:16:25.637 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:16:25.639 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:16:25.639 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:16:25.640 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:16:25.640 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:16:25.644 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:16:26.195 [http-nio-8080-exec-4] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:16:26.231 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:16:26.231 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:16:26.231 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:16:26.231 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:16:26.231 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:16:26.231 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:16:26.232 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:16:26.336 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 20:16:26.337 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 20:16:27.174 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 19:16:26 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 20:16:27.282 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:16:27.283 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:16:27.283 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:16:27.283 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:16:27.283 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:16:27.283 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:16:27.283 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:16:27.326 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 20:16:27.327 [http-nio-8080-exec-8] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 20:16:27.582 [http-nio-8080-exec-8] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 20:16:27.583 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 20:16:27.583 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 20:16:27.583 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:16:27.626 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:16:27.626 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:16:27.629 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 20:16:27.651 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:16:27.671 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:16:27.671 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:16:27.671 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:16:27.671 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:16:27.671 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:16:27.671 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:16:27.673 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:16:28.055 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 19:16:27 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 20:22:51.341 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:22:51.346 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:22:51.350 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:22:51.350 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:22:51.351 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:22:51.351 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:22:51.356 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:22:51.966 [http-nio-8080-exec-1] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:22:51.999 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:22:52.001 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:22:52.001 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:22:52.001 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:22:52.001 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:22:52.001 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:22:52.004 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:22:52.128 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 20:22:52.129 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 20:22:52.684 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 19:22:52 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 20:22:52.819 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:22:52.819 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:22:52.819 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:22:52.819 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:22:52.820 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:22:52.820 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:22:52.821 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:22:52.856 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 20:22:52.856 [http-nio-8080-exec-10] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 20:22:53.186 [http-nio-8080-exec-10] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 20:22:53.187 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 20:22:53.187 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 20:22:53.187 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:22:53.239 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:22:53.239 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:22:53.247 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 20:22:53.276 [http-nio-8080-exec-9] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:22:53.302 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:22:53.302 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:22:53.302 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:22:53.302 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:22:53.302 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:22:53.302 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:22:53.303 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:22:53.565 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 19:22:53 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 20:28:47.737 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:28:47.738 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:28:47.738 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:28:47.738 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:28:47.738 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:28:47.738 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:28:47.740 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:28:48.474 [http-nio-8080-exec-5] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:28:48.502 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:28:48.502 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:28:48.503 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:28:48.503 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:28:48.503 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:28:48.503 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:28:48.504 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:28:48.634 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 20:28:48.635 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 20:28:49.282 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 19:28:49 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 20:28:49.437 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:28:49.437 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:28:49.437 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:28:49.437 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:28:49.437 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:28:49.437 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:28:49.438 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:28:49.485 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 20:28:49.485 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 20:28:49.776 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 20:28:49.776 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 20:28:49.776 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 20:28:49.776 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:28:49.860 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:28:49.860 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:28:49.867 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 20:28:49.903 [http-nio-8080-exec-9] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:28:49.948 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:28:49.948 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:28:49.948 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:28:49.948 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:28:49.949 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:28:49.949 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:28:49.949 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:28:50.352 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 19:28:50 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 20:30:04.627 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:30:04.627 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:30:04.628 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:30:04.628 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:30:04.628 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:30:04.628 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:30:04.628 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:30:05.266 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:30:05.299 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:30:05.300 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:30:05.301 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:30:05.302 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:30:05.302 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:30:05.302 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:30:05.303 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:30:05.399 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 20:30:05.400 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 20:30:06.032 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 19:30:05 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 20:30:06.171 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:30:06.172 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:30:06.172 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:30:06.173 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:30:06.173 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:30:06.173 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:30:06.174 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:30:06.215 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 20:30:06.216 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 20:30:06.643 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 20:30:06.645 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 20:30:06.645 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 20:30:06.645 [http-nio-8080-exec-11] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:30:06.703 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:30:06.703 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:30:06.711 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 20:30:06.744 [http-nio-8080-exec-7] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:30:06.783 [http-nio-8080-exec-13] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:30:06.783 [http-nio-8080-exec-13] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:30:06.783 [http-nio-8080-exec-13] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:30:06.783 [http-nio-8080-exec-13] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:30:06.784 [http-nio-8080-exec-13] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:30:06.784 [http-nio-8080-exec-13] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:30:06.784 [http-nio-8080-exec-13] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:30:07.071 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 19:30:06 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/22 20:38:21.131 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:38:21.140 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:38:21.142 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:38:21.142 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:38:21.142 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:38:21.142 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:38:21.145 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:38:21.762 [http-nio-8080-exec-9] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:38:21.801 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:38:21.801 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:38:21.802 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:38:21.803 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:38:21.804 [http-nio-8080-exec-12] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:38:21.804 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:38:21.806 [http-nio-8080-exec-12] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:38:21.919 [http-nio-8080-exec-11] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT DETAIL 
+2021/12/22 20:38:21.920 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - user-id: qbnKddlq70 
+2021/12/22 20:38:23.513 [http-nio-8080-exec-11] INFO  c.s.a.r.RestClientService - fetching the list of account for: qbnKddlq70 . list of the accounts: {"status":200,"headers":{"Date":["Wed, 22 Dec 2021 19:38:23 GMT"],"Content-Type":["application/json"],"Content-Length":["293"],"Vary":["Accept-Encoding"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Methods":["GET,POST,PUT,DELETE,PATCH,OPTIONS"],"Access-Control-Allow-Credentials":["true"],"Access-Control-Allow-Headers":["Content-Type"],"Strict-Transport-Security":["max-age\u003d15724800; includeSubDomains"],"Via":["1.1 google"],"Alt-Svc":["clear"]},"body":[{"id":"CbIJb0i3vQ","accountType":"SAVING","accountNumber":"128376876123","balance":"891723.23","currency":"USD"},{"id":"Bx9MstWLab","accountType":"CURRENT","accountNumber":"6376278362677","balance":"123123423.12","currency":"EGP"}]} 
+2021/12/22 20:38:23.667 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:38:23.667 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:38:23.668 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:38:23.668 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:38:23.668 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:38:23.668 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:38:23.669 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:38:23.706 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/22 20:38:23.707 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/22 20:38:23.940 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - RESPONSE: User(id=qbnKddlq70, name=Mohamed) 
+2021/12/22 20:38:23.941 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - username: Mohamed 
+2021/12/22 20:38:23.942 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - Id: qbnKddlq70 
+2021/12/22 20:38:23.942 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:38:24.035 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:38:24.036 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:38:24.055 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/22 20:38:24.094 [http-nio-8080-exec-1] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/22 20:38:24.130 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/22 20:38:24.511 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - USERS: <200,[User(id=qbnKddlq70, name=Mohamed), User(id=E1RYSQOjRt, name=John), User(id=0PuRdHrJTh, name=kumar)],[Date:"Wed, 22 Dec 2021 19:38:24 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 

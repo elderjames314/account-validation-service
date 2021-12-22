@@ -14,7 +14,7 @@
         <!-- >File>c:/tmp/interswitchNameEnguiry.log</File-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-       <FileNamePattern>drone-delivery-app/appLogs/accountValidationModule.%d{yyyy-MM-dd}.log
+       <FileNamePattern>user-validation-service/appLogs/accountValidationService.%d{yyyy-MM-dd}.log
            </FileNamePattern>
 
             <!-- keep 30 days' worth of history -->
@@ -29,7 +29,7 @@
         <!-- >File>c:/tmp/interswitchNameEnguiry.log</File-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-          <FileNamePattern>drone-delivery-app/appLogs/accountValidationModule.%d{yyyy-MM-dd}.log
+          <FileNamePattern>user-validation-service/appLogs/accountValidationServiceInfo.%d{yyyy-MM-dd}.log
             </FileNamePattern>
 
             <!-- keep 30 days' worth of history -->

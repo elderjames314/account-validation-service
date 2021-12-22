@@ -1,8 +1,9 @@
 package com.squadio.accountvalidationservice.authentication.service;
 
 
-import com.squadio.accountvalidationmodule.authentication.entity.AccountUser;
-import com.squadio.accountvalidationmodule.authentication.repository.UserRepositoryImpl;
+
+import com.squadio.accountvalidationservice.authentication.entity.AccountUser;
+import com.squadio.accountvalidationservice.authentication.repository.UserRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

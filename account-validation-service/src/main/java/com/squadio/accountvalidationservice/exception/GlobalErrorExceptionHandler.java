@@ -2,7 +2,8 @@ package com.squadio.accountvalidationservice.exception;
 
 
 
-import com.squadio.accountvalidationmodule.exception.model.ErrorReponse;
+
+import com.squadio.accountvalidationservice.exception.model.ErrorReponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +23,8 @@ import java.util.Date;
 @ControllerAdvice
 @Slf4j
 public class GlobalErrorExceptionHandler {
+
+
     //get global exception
     //log error that for bad request
    @ExceptionHandler(Exception.class)

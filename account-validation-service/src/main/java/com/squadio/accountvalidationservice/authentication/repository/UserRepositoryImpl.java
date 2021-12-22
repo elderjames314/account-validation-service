@@ -1,7 +1,10 @@
 package com.squadio.accountvalidationservice.authentication.repository;
 
 
-import com.squadio.accountvalidationmodule.authentication.entity.AccountUser;
+import com.squadio.accountvalidationservice.authentication.entity.AccountUser;
+import com.squadio.accountvalidationservice.remoteservice.RestClientService;
+import com.squadio.accountvalidationservice.remoteservice.model.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,11 +14,14 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class UserRepositoryImpl  implements UserRepository {
+    @Autowired
+    private RestClientService restClientService;
+
     @Override
     public AccountUser findByUserName(String username) {
-
         //get user from the repo
-
-        return null;
+        User user = restClientService.FindUserByUsername(username);
+        String password = "Admin".equals(username) ? "admin" : "user";
+        return new AccountUser(user.getId(), user.getName(), password);
     }
 }

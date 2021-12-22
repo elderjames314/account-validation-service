@@ -1,4 +1,4 @@
-package com.squadio.accountvalidationservice.authentication.entity;
+package com.squadio.accountvalidationservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,15 +7,16 @@ import lombok.ToString;
 
 /**
  * @author jamesoladimeji
- * @created 19/12/2021 - 3:34 AM
+ * @created 20/12/2021 - 5:45 AM
  * @project IntelliJ IDEA
  */
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @Data
-public class AccountUser {
-    private String id;
-    private String username;
-    private String password;
+public class Statement {
+    private String accountNumber;
+    private String description;
+    private String amount;
+    private String date;
 }

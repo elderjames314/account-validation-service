@@ -1,0 +1,897 @@
+2021/12/19 09:09:10.831 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 09:09:10.835 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 63866 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 09:09:10.836 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 09:09:11.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 09:09:11.895 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 09:09:11.895 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 09:09:11.896 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 09:09:11.972 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 09:09:11.973 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms 
+2021/12/19 09:09:12.270 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@575c3e9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2740e316, org.springframework.security.web.header.HeaderWriterFilter@7be2f29a, org.springframework.security.web.authentication.logout.LogoutFilter@39c96e48, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@45cec376, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c991465, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cfc2538, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74f827ad, org.springframework.security.web.session.SessionManagementFilter@34b87182, org.springframework.security.web.access.ExceptionTranslationFilter@3df1a1ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@756aadfc] 
+2021/12/19 09:09:12.560 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 09:09:12.577 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 09:09:12.592 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 2.102 seconds (JVM running for 8.057) 
+2021/12/19 09:09:58.339 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 09:09:58.339 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 09:09:58.340 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 09:11:13.228 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 09:11:13.236 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 63886 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 09:11:13.237 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 09:11:14.627 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 09:11:14.660 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 09:11:14.661 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 09:11:14.662 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 09:11:14.818 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 09:11:14.818 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1518 ms 
+2021/12/19 09:11:15.168 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dbfcf7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4548d254, org.springframework.security.web.header.HeaderWriterFilter@42cc183e, org.springframework.security.web.authentication.logout.LogoutFilter@2ee83775, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@23f86d8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@208f0007, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a4ab7f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@239f017e, org.springframework.security.web.session.SessionManagementFilter@30893e08, org.springframework.security.web.access.ExceptionTranslationFilter@66deec87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3178219a] 
+2021/12/19 09:11:15.650 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 09:11:15.675 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 09:11:15.694 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 2.842 seconds (JVM running for 8.716) 
+2021/12/19 09:11:35.909 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 09:11:35.909 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 09:11:35.910 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:28:09.220 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:28:09.223 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 64065 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:28:09.224 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:28:09.949 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:28:09.955 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:28:09.956 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:28:09.956 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:28:10.008 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:28:10.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 758 ms 
+2021/12/19 11:28:10.174 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@345d053b, org.springframework.security.web.context.SecurityContextPersistenceFilter@53e76c11, org.springframework.security.web.header.HeaderWriterFilter@3c380bd8, org.springframework.security.web.authentication.logout.LogoutFilter@5befbac1, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@aaa0f76, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e4e8fdf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36920bd6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d0cac1f, org.springframework.security.web.session.SessionManagementFilter@5d342959, org.springframework.security.web.access.ExceptionTranslationFilter@34a2d6e0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49e4c2d5] 
+2021/12/19 11:28:10.377 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:28:10.391 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:28:10.404 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 1.435 seconds (JVM running for 7.095) 
+2021/12/19 11:28:19.129 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:28:19.129 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:28:19.130 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:28:54.714 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:28:54.720 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 64078 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:28:54.721 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:28:55.480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:28:55.501 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:28:55.501 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:28:55.502 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:28:55.573 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:28:55.573 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 824 ms 
+2021/12/19 11:28:55.772 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f5cf29b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cfc2538, org.springframework.security.web.header.HeaderWriterFilter@34a2d6e0, org.springframework.security.web.authentication.logout.LogoutFilter@3a1706e1, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@7e5843db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d342959, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@205df5dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c66b7d8, org.springframework.security.web.session.SessionManagementFilter@3451f01d, org.springframework.security.web.access.ExceptionTranslationFilter@350ec690, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74f827ad] 
+2021/12/19 11:28:56.049 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:28:56.060 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:28:56.071 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 1.594 seconds (JVM running for 7.201) 
+2021/12/19 11:28:59.661 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:28:59.661 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:28:59.662 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:30:51.000 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:30:51.002 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 64088 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:30:51.003 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:30:51.655 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:30:51.663 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:30:51.664 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:30:51.664 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:30:51.716 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:30:51.716 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms 
+2021/12/19 11:30:51.881 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67e25252, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a3bd45b, org.springframework.security.web.header.HeaderWriterFilter@5b9499fe, org.springframework.security.web.authentication.logout.LogoutFilter@24a2e565, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@4993febc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f2d995e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1756f7cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58f4b31a, org.springframework.security.web.session.SessionManagementFilter@14fded9d, org.springframework.security.web.access.ExceptionTranslationFilter@b5de58f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@228bda54] 
+2021/12/19 11:30:52.076 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:30:52.086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:30:52.096 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 1.334 seconds (JVM running for 7.199) 
+2021/12/19 11:31:04.463 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:31:04.464 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:31:04.465 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:31:04.608 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 11:32:05.314 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:32:05.316 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 64104 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:32:05.317 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:32:06.082 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:32:06.100 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:32:06.100 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:32:06.100 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:32:06.156 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:32:06.156 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms 
+2021/12/19 11:32:06.322 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dbfcf7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4548d254, org.springframework.security.web.header.HeaderWriterFilter@42cc183e, org.springframework.security.web.authentication.logout.LogoutFilter@2ee83775, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@23f86d8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@208f0007, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a4ab7f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@239f017e, org.springframework.security.web.session.SessionManagementFilter@30893e08, org.springframework.security.web.access.ExceptionTranslationFilter@66deec87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3178219a] 
+2021/12/19 11:32:06.517 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:32:06.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:32:06.542 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 1.471 seconds (JVM running for 7.367) 
+2021/12/19 11:33:33.127 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:33:33.136 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 64118 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:33:33.137 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:33:33.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:33:33.867 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:33:33.868 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:33:33.868 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:33:33.921 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:33:33.921 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms 
+2021/12/19 11:33:34.084 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e8b3b79, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e4e8fdf, org.springframework.security.web.header.HeaderWriterFilter@47768e74, org.springframework.security.web.authentication.logout.LogoutFilter@1a565afb, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@7a8b9166, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2721044, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bee793f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d257579, org.springframework.security.web.session.SessionManagementFilter@53e76c11, org.springframework.security.web.access.ExceptionTranslationFilter@3458eca5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e36b7a0] 
+2021/12/19 11:33:34.278 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:33:34.287 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:33:34.297 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 1.575 seconds (JVM running for 7.247) 
+2021/12/19 11:33:59.553 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:33:59.554 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:33:59.555 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:33:59.734 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 11:33:59.741 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - ERROR OCCURED WHILE AUTHENTICATING USER Mohammed, : Bad credentials 
+2021/12/19 11:35:36.637 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:35:36.640 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 11.0.13 on Jamess-MacBook-Pro.local with PID 64139 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:35:36.641 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:35:37.295 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:35:37.310 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:35:37.311 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:35:37.311 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:35:37.364 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:35:37.364 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms 
+2021/12/19 11:35:37.527 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e111c7c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d7399f9, org.springframework.security.web.header.HeaderWriterFilter@b5de58f, org.springframework.security.web.authentication.logout.LogoutFilter@73c3cd09, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@512575e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14fded9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d099323, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d0e54e0, org.springframework.security.web.session.SessionManagementFilter@67774e29, org.springframework.security.web.access.ExceptionTranslationFilter@9efcd90, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56dd6efa] 
+2021/12/19 11:35:37.713 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:35:37.722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:35:37.731 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 1.333 seconds (JVM running for 6.874) 
+2021/12/19 11:35:44.009 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:35:44.009 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:35:44.010 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:35:44.143 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 11:35:44.164 [http-nio-8080-exec-1] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Sun Dec 19 11:35:44 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/19 11:47:11.273 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:47:16.280 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 11:47:21.285 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64323 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:47:21.285 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:47:21.998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:47:22.004 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:47:22.004 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:47:22.004 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:47:22.057 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:47:22.057 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms 
+2021/12/19 11:47:22.239 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2787de58, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dd93a21, org.springframework.security.web.header.HeaderWriterFilter@c4c0b41, org.springframework.security.web.authentication.logout.LogoutFilter@34523d46, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@757f675c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@304a3655, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2eb79cbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@659a2455, org.springframework.security.web.session.SessionManagementFilter@76b224cd, org.springframework.security.web.access.ExceptionTranslationFilter@3bcd426c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8a62297] 
+2021/12/19 11:47:22.544 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:47:22.563 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:47:22.572 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.57 seconds (JVM running for 27.154) 
+2021/12/19 11:47:32.709 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:47:32.710 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:47:32.711 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:47:32.886 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 11:47:32.890 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 11:52:37.729 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2021-12-19T11:52:32Z. Current time: 2021-12-19T11:52:37Z, a difference of 5726 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractAllClaims(JwtUtil.java:37)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractClaim(JwtUtil.java:33)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractUsername(JwtUtil.java:25)
+	at com.squadio.accountvalidationservice.authentication.filter.JwtFilter.doFilterInternal(JwtFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/12/19 11:53:11.339 [http-nio-8080-exec-6] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 11:53:11.340 [http-nio-8080-exec-6] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 11:53:22.943 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 11:53:22.959 [http-nio-8080-exec-7] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Sun Dec 19 11:53:22 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/19 11:55:52.595 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:55:57.603 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 11:56:02.609 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64459 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:56:02.610 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:56:03.161 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:56:03.166 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:56:03.167 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:56:03.167 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:56:03.215 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:56:03.215 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 579 ms 
+2021/12/19 11:56:03.361 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f8e0cee, org.springframework.security.web.context.SecurityContextPersistenceFilter@aa10649, org.springframework.security.web.header.HeaderWriterFilter@40ab8a8, org.springframework.security.web.authentication.logout.LogoutFilter@4e8e8621, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@a53bb6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37095ded, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7578e06a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@614aeccc, org.springframework.security.web.session.SessionManagementFilter@368d5c00, org.springframework.security.web.access.ExceptionTranslationFilter@76911385, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cd1c1dc] 
+2021/12/19 11:56:03.652 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:56:03.672 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:56:03.679 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.318 seconds (JVM running for 26.827) 
+2021/12/19 11:56:09.746 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:56:09.746 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:56:09.747 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms 
+2021/12/19 11:56:09.881 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 11:56:09.885 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 11:56:20.541 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 11:56:20.561 [http-nio-8080-exec-3] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Sun Dec 19 11:56:20 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/19 11:59:13.209 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 11:59:18.214 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 11:59:23.217 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64482 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 11:59:23.218 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 11:59:23.770 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 11:59:23.775 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:59:23.775 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 11:59:23.775 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 11:59:23.821 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 11:59:23.821 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 577 ms 
+2021/12/19 11:59:23.965 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2787de58, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dd93a21, org.springframework.security.web.header.HeaderWriterFilter@c4c0b41, org.springframework.security.web.authentication.logout.LogoutFilter@34523d46, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@676f0a60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@304a3655, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2eb79cbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@659a2455, org.springframework.security.web.session.SessionManagementFilter@76b224cd, org.springframework.security.web.access.ExceptionTranslationFilter@3bcd426c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8a62297] 
+2021/12/19 11:59:24.254 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 11:59:24.272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 11:59:24.278 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.306 seconds (JVM running for 26.809) 
+2021/12/19 11:59:35.211 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 11:59:35.211 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 11:59:35.212 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 11:59:35.398 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 11:59:35.420 [http-nio-8080-exec-2] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Sun Dec 19 11:59:35 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/19 12:01:33.043 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:01:38.051 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:01:43.058 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64510 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:01:43.059 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:01:43.623 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:01:43.627 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:01:43.627 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:01:43.628 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:01:43.672 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:01:43.672 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 587 ms 
+2021/12/19 12:01:43.812 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1763992e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ff37443, org.springframework.security.web.header.HeaderWriterFilter@5d1e09bc, org.springframework.security.web.authentication.logout.LogoutFilter@4c0884e8, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@79c5636f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53093491, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@304a3655, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c92166b, org.springframework.security.web.session.SessionManagementFilter@7a799159, org.springframework.security.web.access.ExceptionTranslationFilter@bb095, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de30571] 
+2021/12/19 12:01:44.099 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:01:44.117 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:01:44.124 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.318 seconds (JVM running for 26.838) 
+2021/12/19 12:01:50.256 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 12:01:50.256 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 12:01:50.257 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 12:01:50.419 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2021-12-19T12:01:09Z. Current time: 2021-12-19T12:01:50Z, a difference of 41415 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractAllClaims(JwtUtil.java:37)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractClaim(JwtUtil.java:33)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractUsername(JwtUtil.java:25)
+	at com.squadio.accountvalidationservice.authentication.filter.JwtFilter.doFilterInternal(JwtFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/12/19 12:01:54.603 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 12:01:54.606 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 12:02:08.550 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:02:08.565 [http-nio-8080-exec-4] ERROR c.s.a.r.RestClientService - ERROR OCCURED: Not enough variable values available to expand 'username' 
+2021/12/19 12:02:17.103 [http-nio-8080-exec-5] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 12:02:17.103 [http-nio-8080-exec-5] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 12:02:31.321 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:02:31.325 [http-nio-8080-exec-6] ERROR c.s.a.r.RestClientService - ERROR OCCURED: Not enough variable values available to expand 'username' 
+2021/12/19 12:03:29.370 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:03:34.375 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:03:39.380 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64527 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:03:39.381 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:03:40.000 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:03:40.006 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:03:40.006 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:03:40.006 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:03:40.058 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:03:40.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 646 ms 
+2021/12/19 12:03:40.210 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1763992e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ff37443, org.springframework.security.web.header.HeaderWriterFilter@5d1e09bc, org.springframework.security.web.authentication.logout.LogoutFilter@4c0884e8, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@79c5636f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53093491, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@304a3655, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c92166b, org.springframework.security.web.session.SessionManagementFilter@7a799159, org.springframework.security.web.access.ExceptionTranslationFilter@bb095, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de30571] 
+2021/12/19 12:03:40.525 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:03:40.544 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:03:40.551 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.446 seconds (JVM running for 27.03) 
+2021/12/19 12:04:32.957 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:04:37.967 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:04:42.971 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64551 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:04:42.971 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:04:43.533 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:04:43.538 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:04:43.538 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:04:43.539 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:04:43.588 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:04:43.588 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 593 ms 
+2021/12/19 12:04:43.730 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1763992e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ff37443, org.springframework.security.web.header.HeaderWriterFilter@5d1e09bc, org.springframework.security.web.authentication.logout.LogoutFilter@4c0884e8, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@79c5636f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53093491, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@304a3655, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c92166b, org.springframework.security.web.session.SessionManagementFilter@7a799159, org.springframework.security.web.access.ExceptionTranslationFilter@bb095, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de30571] 
+2021/12/19 12:04:44.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:04:44.036 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:04:44.042 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.32 seconds (JVM running for 26.848) 
+2021/12/19 12:04:53.164 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 12:04:53.164 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 12:04:53.165 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 12:04:53.351 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:04:53.371 [http-nio-8080-exec-2] ERROR c.s.a.r.RestClientService - ERROR OCCURED: Not enough variable values available to expand 'username' 
+2021/12/19 12:11:48.942 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:11:53.949 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:11:58.958 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64653 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:11:58.958 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:11:59.501 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:11:59.506 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:11:59.506 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:11:59.507 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:11:59.554 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:11:59.554 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 571 ms 
+2021/12/19 12:11:59.695 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47f08b81, org.springframework.security.web.context.SecurityContextPersistenceFilter@76b224cd, org.springframework.security.web.header.HeaderWriterFilter@726a17c4, org.springframework.security.web.authentication.logout.LogoutFilter@7b208b45, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@757f675c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dd93a21, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b3871d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b9dfc5a, org.springframework.security.web.session.SessionManagementFilter@53093491, org.springframework.security.web.access.ExceptionTranslationFilter@5d1e09bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3df978b9] 
+2021/12/19 12:11:59.988 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:12:00.005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:12:00.013 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.308 seconds (JVM running for 26.789) 
+2021/12/19 12:12:16.446 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 12:12:16.446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 12:12:16.447 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 12:12:16.615 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2021-12-19T12:07:17Z. Current time: 2021-12-19T12:12:16Z, a difference of 299612 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractAllClaims(JwtUtil.java:37)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractClaim(JwtUtil.java:33)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractUsername(JwtUtil.java:25)
+	at com.squadio.accountvalidationservice.authentication.filter.JwtFilter.doFilterInternal(JwtFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/12/19 12:12:25.984 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 12:12:25.988 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 12:12:36.351 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:12:36.352 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:12:36.354 [http-nio-8080-exec-4] ERROR c.s.a.r.RestClientService - ERROR OCCURED: null 
+2021/12/19 12:13:59.130 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:13:59.130 [http-nio-8080-exec-7] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:13:59.132 [http-nio-8080-exec-7] ERROR c.s.a.r.RestClientService - ERROR OCCURED: null 
+2021/12/19 12:21:01.555 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:21:06.573 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:21:11.580 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64708 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:21:11.581 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:21:12.369 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:21:12.375 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:21:12.376 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:21:12.377 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:21:12.451 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:21:12.451 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 818 ms 
+2021/12/19 12:21:12.657 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47f08b81, org.springframework.security.web.context.SecurityContextPersistenceFilter@76b224cd, org.springframework.security.web.header.HeaderWriterFilter@726a17c4, org.springframework.security.web.authentication.logout.LogoutFilter@7b208b45, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@757f675c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dd93a21, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b3871d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b9dfc5a, org.springframework.security.web.session.SessionManagementFilter@53093491, org.springframework.security.web.access.ExceptionTranslationFilter@5d1e09bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3df978b9] 
+2021/12/19 12:21:12.981 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:21:13.007 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:21:13.019 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.839 seconds (JVM running for 27.388) 
+2021/12/19 12:21:43.708 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 12:21:43.708 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 12:21:43.709 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 12:21:43.899 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 12:21:43.905 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohammed 
+2021/12/19 12:21:53.276 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:21:53.277 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:21:55.629 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: com.squadio.accountvalidationservice.remoteservice.model.Account@1932efc2 
+2021/12/19 12:21:55.634 [http-nio-8080-exec-3] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Sun Dec 19 12:21:55 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/19 12:23:08.898 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:23:13.904 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:23:18.911 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64747 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:23:18.911 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:23:19.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:23:19.495 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:23:19.496 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:23:19.496 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:23:19.551 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:23:19.551 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 613 ms 
+2021/12/19 12:23:19.705 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1763992e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ff37443, org.springframework.security.web.header.HeaderWriterFilter@5d1e09bc, org.springframework.security.web.authentication.logout.LogoutFilter@4c0884e8, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@79c5636f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53093491, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@304a3655, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c92166b, org.springframework.security.web.session.SessionManagementFilter@7a799159, org.springframework.security.web.access.ExceptionTranslationFilter@bb095, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de30571] 
+2021/12/19 12:23:19.986 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:23:20.004 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:23:20.011 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.352 seconds (JVM running for 26.818) 
+2021/12/19 12:23:27.217 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 12:23:27.217 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 12:23:27.218 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 12:23:27.399 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 12:23:27.402 [http-nio-8080-exec-2] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:23:28.727 [http-nio-8080-exec-2] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 12:37:22.162 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 12:37:27.170 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 12:37:32.178 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 64900 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 12:37:32.178 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 12:37:32.895 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 12:37:32.902 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:37:32.903 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 12:37:32.903 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 12:37:32.969 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 12:37:32.969 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 757 ms 
+2021/12/19 12:37:33.179 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f8e0cee, org.springframework.security.web.context.SecurityContextPersistenceFilter@aa10649, org.springframework.security.web.header.HeaderWriterFilter@40ab8a8, org.springframework.security.web.authentication.logout.LogoutFilter@4e8e8621, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@5e63cad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37095ded, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7578e06a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@614aeccc, org.springframework.security.web.session.SessionManagementFilter@368d5c00, org.springframework.security.web.access.ExceptionTranslationFilter@76911385, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cd1c1dc] 
+2021/12/19 12:37:33.504 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 12:37:33.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 12:37:33.538 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.651 seconds (JVM running for 27.256) 
+2021/12/19 12:37:51.081 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 12:37:51.082 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 12:37:51.086 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms 
+2021/12/19 12:37:51.280 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 12:37:51.284 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:37:53.152 [http-nio-8080-exec-1] ERROR c.s.a.r.RestClientService - ERROR OCCURED: 400 Bad Request: "No Such Users" 
+2021/12/19 12:37:53.154 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - ERROR OCCURED WHILE AUTHENTICATING USER Mohammed, : null 
+2021/12/19 12:38:18.500 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 12:38:18.500 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:38:18.818 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 12:38:18.825 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 12:38:19.078 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 12:38:19.078 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohamed 
+2021/12/19 13:06:25.569 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:06:30.576 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:06:35.583 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65140 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:06:35.584 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:06:36.136 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:06:36.141 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:06:36.141 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:06:36.141 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:06:36.188 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:06:36.188 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 575 ms 
+2021/12/19 13:06:36.328 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b2a30d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ca6546f, org.springframework.security.web.header.HeaderWriterFilter@21719a0, org.springframework.security.web.authentication.logout.LogoutFilter@7e46d648, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@33a053d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7923f5b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11a7ba62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@322803db, org.springframework.security.web.session.SessionManagementFilter@37095ded, org.springframework.security.web.access.ExceptionTranslationFilter@40ab8a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@659a2455] 
+2021/12/19 13:06:36.617 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:06:36.636 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:06:36.643 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.346 seconds (JVM running for 26.806) 
+2021/12/19 13:06:50.800 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:06:50.802 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:06:50.807 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms 
+2021/12/19 13:06:51.114 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:06:51.122 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:06:53.262 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:06:53.268 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:06:54.126 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:06:54.127 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohamed 
+2021/12/19 13:07:08.449 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:07:08.804 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:07:43.377 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:07:43.799 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:07:43.809 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 13:14:48.360 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:14:53.368 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:14:58.374 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65205 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:14:58.374 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:14:58.920 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:14:58.924 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:14:58.925 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:14:58.925 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:14:58.970 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:14:58.970 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 567 ms 
+2021/12/19 13:14:59.111 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b2a30d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ca6546f, org.springframework.security.web.header.HeaderWriterFilter@21719a0, org.springframework.security.web.authentication.logout.LogoutFilter@7e46d648, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@33a053d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7923f5b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11a7ba62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@322803db, org.springframework.security.web.session.SessionManagementFilter@37095ded, org.springframework.security.web.access.ExceptionTranslationFilter@40ab8a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@659a2455] 
+2021/12/19 13:14:59.392 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:14:59.410 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:14:59.417 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.283 seconds (JVM running for 26.763) 
+2021/12/19 13:15:06.327 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:15:06.327 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:15:06.328 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 13:15:06.482 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2021-12-19T13:11:54Z. Current time: 2021-12-19T13:15:06Z, a difference of 192478 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractAllClaims(JwtUtil.java:37)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractClaim(JwtUtil.java:33)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractUsername(JwtUtil.java:25)
+	at com.squadio.accountvalidationservice.authentication.filter.JwtFilter.doFilterInternal(JwtFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/12/19 13:15:17.544 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:15:17.548 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:15:18.279 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:15:18.281 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:15:18.539 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:15:18.539 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohamed 
+2021/12/19 13:15:33.903 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:15:34.923 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:15:34.927 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 13:15:34.928 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:15:35.286 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:15:53.850 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:15:54.391 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:15:54.393 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 13:15:59.780 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:16:00.110 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:16:00.113 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 13:16:00.114 [http-nio-8080-exec-6] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:16:00.371 [http-nio-8080-exec-6] ERROR c.s.a.r.RestClientService - ERROR OCCURED: 400 Bad Request: "No Such Users" 
+2021/12/19 13:17:30.951 [http-nio-8080-exec-9] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:17:30.952 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:17:34.277 [http-nio-8080-exec-9] ERROR c.s.a.r.RestClientService - ERROR OCCURED: 400 Bad Request: "No Such Users" 
+2021/12/19 13:17:34.280 [http-nio-8080-exec-9] INFO  c.s.a.a.c.AuthenticationController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : null 
+2021/12/19 13:27:03.499 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:27:08.503 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:27:13.507 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65317 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:27:13.511 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:27:14.054 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:27:14.059 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:27:14.059 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:27:14.059 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:27:14.105 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:27:14.105 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms 
+2021/12/19 13:27:14.247 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@659a2455, org.springframework.security.web.context.SecurityContextPersistenceFilter@57b9e423, org.springframework.security.web.header.HeaderWriterFilter@76911385, org.springframework.security.web.authentication.logout.LogoutFilter@7cedfa63, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@676f0a60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@368d5c00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ca6546f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@267517e4, org.springframework.security.web.session.SessionManagementFilter@77ee25f1, org.springframework.security.web.access.ExceptionTranslationFilter@5f14a673, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61a91912] 
+2021/12/19 13:27:14.530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:27:14.548 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:27:14.555 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.289 seconds (JVM running for 26.785) 
+2021/12/19 13:27:26.512 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:27:26.512 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:27:26.513 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 13:27:26.647 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:27:26.655 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/19 13:29:45.358 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:29:50.367 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:29:55.374 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65343 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:29:55.375 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:29:55.925 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:29:55.930 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:29:55.930 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:29:55.930 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:29:55.980 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:29:55.980 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 577 ms 
+2021/12/19 13:29:56.125 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a91d146, org.springframework.security.web.context.SecurityContextPersistenceFilter@23ee75c5, org.springframework.security.web.header.HeaderWriterFilter@12a160c2, org.springframework.security.web.authentication.logout.LogoutFilter@75b3673, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@6034e75d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@340b7ef6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73877e19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4784013e, org.springframework.security.web.session.SessionManagementFilter@30b2b76f, org.springframework.security.web.access.ExceptionTranslationFilter@6dd93a21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bc425e7] 
+2021/12/19 13:29:56.404 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:29:56.421 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:29:56.429 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.31 seconds (JVM running for 26.889) 
+2021/12/19 13:30:02.552 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:30:02.552 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:30:02.553 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 13:30:02.697 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:30:02.701 [http-nio-8080-exec-1] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Admin 
+2021/12/19 13:30:17.705 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 13:33:53.361 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:33:58.370 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:34:03.378 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65384 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:34:03.378 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:34:03.937 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:34:03.942 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:34:03.943 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:34:03.943 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:34:03.988 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:34:03.988 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 582 ms 
+2021/12/19 13:34:04.137 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56ba8773, org.springframework.security.web.context.SecurityContextPersistenceFilter@7923f5b3, org.springframework.security.web.header.HeaderWriterFilter@77ee25f1, org.springframework.security.web.authentication.logout.LogoutFilter@2b0b4d53, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@20921b9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7578e06a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30404dba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ceb7b5e, org.springframework.security.web.session.SessionManagementFilter@2ca6546f, org.springframework.security.web.access.ExceptionTranslationFilter@65cc8228, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@426e505c] 
+2021/12/19 13:34:04.415 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:34:04.432 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:34:04.440 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.342 seconds (JVM running for 26.868) 
+2021/12/19 13:34:29.222 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:34:34.232 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:34:39.237 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65397 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:34:39.238 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:34:39.772 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:34:39.777 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:34:39.777 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:34:39.777 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:34:39.823 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:34:39.823 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 557 ms 
+2021/12/19 13:34:39.963 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d176a31, org.springframework.security.web.context.SecurityContextPersistenceFilter@56da52a7, org.springframework.security.web.header.HeaderWriterFilter@368d5c00, org.springframework.security.web.authentication.logout.LogoutFilter@303a5119, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@55b5e331, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11a7ba62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11841b15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a91d146, org.springframework.security.web.session.SessionManagementFilter@7578e06a, org.springframework.security.web.access.ExceptionTranslationFilter@77ee25f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5116ac09] 
+2021/12/19 13:34:40.244 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:34:40.261 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:34:40.268 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.272 seconds (JVM running for 26.732) 
+2021/12/19 13:34:48.265 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:34:48.265 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:34:48.266 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 13:34:48.401 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:34:48.404 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Admin 
+2021/12/19 13:35:04.370 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 13:35:04.372 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:35:05.228 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:45:51.798 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:45:56.805 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:46:01.814 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65477 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:46:01.814 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:46:02.360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:46:02.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:46:02.365 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:46:02.366 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:46:02.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:46:02.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 578 ms 
+2021/12/19 13:46:02.561 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b2a30d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ca6546f, org.springframework.security.web.header.HeaderWriterFilter@21719a0, org.springframework.security.web.authentication.logout.LogoutFilter@7e46d648, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@33a053d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7923f5b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11a7ba62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@322803db, org.springframework.security.web.session.SessionManagementFilter@37095ded, org.springframework.security.web.access.ExceptionTranslationFilter@40ab8a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@659a2455] 
+2021/12/19 13:46:02.841 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:46:02.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:46:02.868 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.297 seconds (JVM running for 26.906) 
+2021/12/19 13:46:14.545 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:46:14.545 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:46:14.546 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms 
+2021/12/19 13:46:14.696 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2021-12-19T13:39:48Z. Current time: 2021-12-19T13:46:14Z, a difference of 386693 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractAllClaims(JwtUtil.java:37)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractClaim(JwtUtil.java:33)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractUsername(JwtUtil.java:25)
+	at com.squadio.accountvalidationservice.authentication.filter.JwtFilter.doFilterInternal(JwtFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/12/19 13:46:24.345 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:46:24.349 [http-nio-8080-exec-3] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Admin 
+2021/12/19 13:46:43.949 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - USERS: <200,[{"id":"qbnKddlq70","name":"Mohamed"},{"id":"E1RYSQOjRt","name":"John"},{"id":"0PuRdHrJTh","name":"kumar"}],[Date:"Sun, 19 Dec 2021 12:46:43 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/19 13:52:44.455 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/19 13:52:49.462 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/19 13:52:54.467 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 65576 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/19 13:52:54.468 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/19 13:52:55.044 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/19 13:52:55.049 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:52:55.050 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/19 13:52:55.050 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/19 13:52:55.099 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/19 13:52:55.100 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 603 ms 
+2021/12/19 13:52:55.254 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48c4245d, org.springframework.security.web.context.SecurityContextPersistenceFilter@76911385, org.springframework.security.web.header.HeaderWriterFilter@b558294, org.springframework.security.web.authentication.logout.LogoutFilter@23ee75c5, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@2fb69ff6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@160396db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21719a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3df978b9, org.springframework.security.web.session.SessionManagementFilter@5dc3fcb7, org.springframework.security.web.access.ExceptionTranslationFilter@6a969fb8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@417d6615] 
+2021/12/19 13:52:55.532 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/19 13:52:55.551 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/19 13:52:55.558 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.34 seconds (JVM running for 26.945) 
+2021/12/19 13:53:08.405 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/19 13:53:08.405 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/19 13:53:08.406 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/19 13:53:08.588 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:53:08.594 [http-nio-8080-exec-2] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Admin 
+2021/12/19 13:53:22.291 [http-nio-8080-exec-3] INFO  c.s.a.r.RestClientService - USERS: <200,[Account(id=qbnKddlq70, name=Mohamed), Account(id=E1RYSQOjRt, name=John), Account(id=0PuRdHrJTh, name=kumar)],[Date:"Sun, 19 Dec 2021 12:53:22 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/19 13:53:36.634 [http-nio-8080-exec-4] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 13:53:36.634 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:53:37.248 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:53:37.248 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:53:37.575 [http-nio-8080-exec-4] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 13:53:37.575 [http-nio-8080-exec-4] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohamed 
+2021/12/19 13:53:47.848 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 13:53:48.204 [http-nio-8080-exec-5] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 14:50:36.673 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2021-12-19T13:58:37Z. Current time: 2021-12-19T14:50:36Z, a difference of 3119599 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractAllClaims(JwtUtil.java:37)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractClaim(JwtUtil.java:33)
+	at com.squadio.accountvalidationservice.authentication.util.JwtUtil.extractUsername(JwtUtil.java:25)
+	at com.squadio.accountvalidationservice.authentication.filter.JwtFilter.doFilterInternal(JwtFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/12/19 14:50:42.044 [http-nio-8080-exec-9] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 14:50:42.046 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 14:50:44.413 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 14:50:44.414 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 14:50:44.861 [http-nio-8080-exec-9] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 
+2021/12/19 14:50:44.861 [http-nio-8080-exec-9] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Mohamed 
+2021/12/19 14:50:51.324 [http-nio-8080-exec-10] INFO  c.s.a.a.c.AuthenticationController - AUTHENTICATING USER 
+2021/12/19 14:50:51.324 [http-nio-8080-exec-10] INFO  c.s.a.a.c.AuthenticationController - USERNAME: Admin 
+2021/12/19 14:51:01.078 [http-nio-8080-exec-1] INFO  c.s.a.r.RestClientService - USERS: <200,[Account(id=qbnKddlq70, name=Mohamed), Account(id=E1RYSQOjRt, name=John), Account(id=0PuRdHrJTh, name=kumar)],[Date:"Sun, 19 Dec 2021 13:51:00 GMT", Content-Type:"application/json", Content-Length:"107", Access-Control-Allow-Origin:"*", Access-Control-Allow-Methods:"GET,POST,PUT,DELETE,PATCH,OPTIONS", Access-Control-Allow-Credentials:"true", Access-Control-Allow-Headers:"Content-Type", Strict-Transport-Security:"max-age=15724800; includeSubDomains", Via:"1.1 google", Alt-Svc:"clear"]> 
+2021/12/19 14:51:26.442 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - STARTED 
+2021/12/19 14:51:26.442 [http-nio-8080-exec-2] INFO  c.s.a.r.RestClientService - userInformationUrl: https://purple-fire-5350.getsandbox.com:443/users/{username} 
+2021/12/19 14:51:26.845 [http-nio-8080-exec-2] INFO  c.s.a.r.RestClientService - RESPONSE: Account(id=qbnKddlq70, name=Mohamed) 

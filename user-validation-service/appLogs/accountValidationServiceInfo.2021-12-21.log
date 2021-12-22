@@ -1,0 +1,1103 @@
+2021/12/21 16:58:36.524 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 16:58:36.663 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 16:58:36.664 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - loggedIp: 0:0:0:0:0:0:0:1 
+2021/12/21 16:58:36.664 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - Now IP: 0:0:0:0:0:0:0:1 
+2021/12/21 16:58:36.793 [http-nio-8080-exec-10] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 16:58:36 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/21 16:59:02.318 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 16:59:02.322 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 16:59:02.322 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - loggedIp: 0:0:0:0:0:0:0:1 
+2021/12/21 16:59:02.322 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - Now IP: 0:0:0:0:0:0:0:1 
+2021/12/21 16:59:02.335 [http-nio-8080-exec-2] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 16:59:02 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/21 17:21:50.750 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 17:21:55.763 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 17:22:00.772 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74050 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 17:22:00.772 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 17:22:01.473 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 17:22:01.479 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 17:22:01.479 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 17:22:01.480 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 17:22:01.532 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 17:22:01.532 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms 
+2021/12/21 17:22:01.737 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@383790cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@7068f7ca, org.springframework.security.web.header.HeaderWriterFilter@34523d46, org.springframework.security.web.authentication.logout.LogoutFilter@5aae8eb5, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@2d691f3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41aaedaa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31fc71ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74971ed9, org.springframework.security.web.session.SessionManagementFilter@51751e5f, org.springframework.security.web.access.ExceptionTranslationFilter@11841b15, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53692008] 
+2021/12/21 17:22:02.038 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 17:22:02.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 17:22:02.065 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.766 seconds (JVM running for 27.391) 
+2021/12/21 17:22:22.915 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 17:22:22.915 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 17:22:22.916 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 17:22:23.253 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 17:22:23.255 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 17:22:23.262 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 17:22:23.263 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 17:22:23.263 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 17:22:23.263 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 17:22:23.633 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 17:22:52.122 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT STATEMENT 
+2021/12/21 18:31:41.005 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 18:31:46.009 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 18:31:51.014 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74560 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 18:31:51.014 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 18:31:51.577 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 18:31:51.582 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 18:31:51.582 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 18:31:51.582 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 18:31:51.630 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 18:31:51.630 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms 
+2021/12/21 18:31:51.777 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bcf67e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e83c18, org.springframework.security.web.header.HeaderWriterFilter@11a7ba62, org.springframework.security.web.authentication.logout.LogoutFilter@3005db4a, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@91c4a3f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d235104, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51751e5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f404594, org.springframework.security.web.session.SessionManagementFilter@34523d46, org.springframework.security.web.access.ExceptionTranslationFilter@7578e06a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@aa004a0] 
+2021/12/21 18:31:52.053 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 18:31:52.071 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 18:31:52.078 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.3 seconds (JVM running for 26.91) 
+2021/12/21 18:32:02.113 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 18:32:02.114 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 18:32:02.115 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 18:32:02.260 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 18:32:02.262 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 18:32:02.265 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 18:32:02.265 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 18:32:02.265 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 18:32:02.265 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 18:32:02.430 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 18:32:20.485 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - FETCHING USER ACCOUNT STATEMENT 
+2021/12/21 18:36:37.327 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 18:36:37.327 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 18:36:37.327 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - loggedIp: 0:0:0:0:0:0:0:1 
+2021/12/21 18:36:37.328 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - Now IP: 0:0:0:0:0:0:0:1 
+2021/12/21 18:37:03.918 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 18:37:10.009 [http-nio-8080-exec-9] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 18:37:14.667 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 18:37:14.668 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 18:37:14.668 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - loggedIp: 0:0:0:0:0:0:0:1 
+2021/12/21 18:37:14.668 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - Now IP: 0:0:0:0:0:0:0:1 
+2021/12/21 18:37:14.671 [http-nio-8080-exec-10] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 18:37:14 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/21 18:38:14.398 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 18:38:19.407 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 18:38:24.413 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74591 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 18:38:24.414 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 18:38:24.962 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 18:38:24.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 18:38:24.967 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 18:38:24.967 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 18:38:25.013 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 18:38:25.013 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms 
+2021/12/21 18:38:25.162 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74971ed9, org.springframework.security.web.context.SecurityContextPersistenceFilter@38548b19, org.springframework.security.web.header.HeaderWriterFilter@7cedfa63, org.springframework.security.web.authentication.logout.LogoutFilter@76954a33, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1bdbf9be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@303a5119, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71391b3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@131fcb6f, org.springframework.security.web.session.SessionManagementFilter@2b0b4d53, org.springframework.security.web.access.ExceptionTranslationFilter@73877e19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b2a3ff8] 
+2021/12/21 18:38:25.446 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 18:38:25.463 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 18:38:25.470 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.302 seconds (JVM running for 26.759) 
+2021/12/21 18:38:32.296 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 18:38:32.297 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 18:38:32.297 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms 
+2021/12/21 18:38:32.436 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 18:38:32.437 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 18:38:32.440 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 18:38:32.440 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 18:38:32.440 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 18:38:32.440 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 18:38:32.592 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 18:38:50.525 [http-nio-8080-exec-3] ERROR c.s.a.s.AccountValidationService - Error occured while perform searching operation: null 
+2021/12/21 18:58:05.791 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 18:58:10.796 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 18:58:15.801 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74760 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 18:58:15.801 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 18:58:16.390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 18:58:16.396 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 18:58:16.396 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 18:58:16.397 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 18:58:16.452 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 18:58:16.452 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 626 ms 
+2021/12/21 18:58:16.635 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@383790cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@7068f7ca, org.springframework.security.web.header.HeaderWriterFilter@34523d46, org.springframework.security.web.authentication.logout.LogoutFilter@5aae8eb5, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@2d691f3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41aaedaa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31fc71ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74971ed9, org.springframework.security.web.session.SessionManagementFilter@51751e5f, org.springframework.security.web.access.ExceptionTranslationFilter@11841b15, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53692008] 
+2021/12/21 18:58:16.923 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 18:58:16.942 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 18:58:16.950 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.39 seconds (JVM running for 26.933) 
+2021/12/21 18:58:26.584 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 18:58:26.584 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 18:58:26.585 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 18:58:26.715 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 18:58:26.717 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 18:58:26.720 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 18:58:26.720 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 18:58:26.720 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 18:58:26.720 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 18:58:26.881 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 19:03:08.298 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 19:03:13.305 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 19:03:18.311 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74802 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 19:03:18.311 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 19:03:18.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 19:03:18.866 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 19:03:18.867 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 19:03:18.867 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 19:03:18.913 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 19:03:18.913 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms 
+2021/12/21 19:03:19.061 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f02251, org.springframework.security.web.context.SecurityContextPersistenceFilter@73877e19, org.springframework.security.web.header.HeaderWriterFilter@6b63d445, org.springframework.security.web.authentication.logout.LogoutFilter@4078695f, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@63a5d002, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bfc257, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e8e8621, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@dffa30b, org.springframework.security.web.session.SessionManagementFilter@231baf51, org.springframework.security.web.access.ExceptionTranslationFilter@2eb79cbe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a91d146] 
+2021/12/21 19:03:19.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 19:03:19.352 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 19:03:19.359 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.304 seconds (JVM running for 26.766) 
+2021/12/21 19:03:45.982 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 19:03:45.982 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 19:03:45.983 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 19:03:46.148 [http-nio-8080-exec-1] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 19:03:57.377 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 19:03:57.379 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 19:03:57.383 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 19:03:57.383 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 19:03:57.383 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 19:03:57.383 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 19:03:57.400 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 21:20:35.063 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:20:40.076 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:20:45.083 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74981 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:20:45.084 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:20:45.820 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:20:45.826 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:20:45.827 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:20:45.827 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:20:45.879 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:20:45.879 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 758 ms 
+2021/12/21 21:20:46.074 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27b71f50, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b0b4d53, org.springframework.security.web.header.HeaderWriterFilter@5bfc257, org.springframework.security.web.authentication.logout.LogoutFilter@66596a88, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@410e94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38548b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fca2a8f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383790cf, org.springframework.security.web.session.SessionManagementFilter@7e46d648, org.springframework.security.web.access.ExceptionTranslationFilter@231baf51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f404594] 
+2021/12/21 21:20:46.375 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:20:46.394 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:20:46.402 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.62 seconds (JVM running for 27.16) 
+2021/12/21 21:20:52.264 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:20:52.265 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:20:52.266 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 21:20:52.441 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 21:20:52.443 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 21:20:52.446 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 21:20:52.446 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 21:20:52.447 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 21:20:52.447 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 21:20:52.647 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 21:21:08.664 [http-nio-8080-exec-3] INFO  c.s.a.e.GlobalErrorExceptionHandler - MethodArgumentNotValidException set in 
+2021/12/21 21:21:08.664 [http-nio-8080-exec-3] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 21:21:08 WAT 2021, responseCode=99, responseMessage=from date field cannot be null but it can be empty) 
+2021/12/21 21:21:42.543 [http-nio-8080-exec-5] INFO  c.s.a.e.GlobalErrorExceptionHandler - MethodArgumentNotValidException set in 
+2021/12/21 21:21:42.544 [http-nio-8080-exec-5] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 21:21:42 WAT 2021, responseCode=99, responseMessage=from date field cannot be null but it can be empty) 
+2021/12/21 21:21:48.751 [http-nio-8080-exec-7] INFO  c.s.a.e.GlobalErrorExceptionHandler - MethodArgumentNotValidException set in 
+2021/12/21 21:21:48.751 [http-nio-8080-exec-7] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 21:21:48 WAT 2021, responseCode=99, responseMessage=from date field cannot be null but it can be empty) 
+2021/12/21 21:22:42.450 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:22:47.459 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:22:52.467 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 74995 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:22:52.467 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:22:53.020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:22:53.025 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:22:53.025 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:22:53.026 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:22:53.069 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:22:53.069 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms 
+2021/12/21 21:22:53.222 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@131fcb6f, org.springframework.security.web.context.SecurityContextPersistenceFilter@41aaedaa, org.springframework.security.web.header.HeaderWriterFilter@3e83c18, org.springframework.security.web.authentication.logout.LogoutFilter@24a298a6, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1e7f2e0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75b3673, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cfbeac4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ccd1bc3, org.springframework.security.web.session.SessionManagementFilter@7068f7ca, org.springframework.security.web.access.ExceptionTranslationFilter@7b208b45, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bbae752] 
+2021/12/21 21:22:53.488 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:22:53.507 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:22:53.514 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.287 seconds (JVM running for 26.896) 
+2021/12/21 21:23:03.363 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:23:03.363 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:23:03.364 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 21:23:05.384 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 21:26:24.051 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:26:29.062 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:26:34.069 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75030 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:26:34.069 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:26:34.626 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:26:34.631 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:26:34.631 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:26:34.631 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:26:34.675 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:26:34.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 577 ms 
+2021/12/21 21:26:34.824 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4455f57d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bcb79c2, org.springframework.security.web.header.HeaderWriterFilter@4e8e8621, org.springframework.security.web.authentication.logout.LogoutFilter@7bef452c, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@3c818ac4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fca2a8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79a1728c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29fc1a2b, org.springframework.security.web.session.SessionManagementFilter@303a5119, org.springframework.security.web.access.ExceptionTranslationFilter@7cedfa63, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76075d65] 
+2021/12/21 21:26:35.117 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:26:35.137 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:26:35.144 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.322 seconds (JVM running for 26.839) 
+2021/12/21 21:26:50.418 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:26:50.418 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:26:50.419 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 21:26:50.592 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 21:26:54.918 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 21:26:54.919 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 21:26:54.923 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 21:26:54.923 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 21:26:54.923 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 21:26:54.923 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 21:26:54.939 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 21:27:49.636 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 21:27:49.638 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.643 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.643 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.643 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.643 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.643 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.644 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.645 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.646 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - NOW: Tue Dec 21 21:27:49 WAT 2021 
+2021/12/21 21:27:49.647 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 21:30:52.313 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:30:57.318 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:31:02.326 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75073 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:31:02.326 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:31:02.886 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:31:02.891 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:31:02.891 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:31:02.891 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:31:02.937 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:31:02.937 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 583 ms 
+2021/12/21 21:31:03.087 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27b71f50, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b0b4d53, org.springframework.security.web.header.HeaderWriterFilter@5bfc257, org.springframework.security.web.authentication.logout.LogoutFilter@66596a88, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@410e94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38548b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fca2a8f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383790cf, org.springframework.security.web.session.SessionManagementFilter@7e46d648, org.springframework.security.web.access.ExceptionTranslationFilter@231baf51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f404594] 
+2021/12/21 21:31:03.369 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:31:03.388 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:31:03.395 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.317 seconds (JVM running for 26.789) 
+2021/12/21 21:31:10.328 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:31:10.328 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:31:10.330 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms 
+2021/12/21 21:31:11.573 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 21:31:11.577 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.579 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.581 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.582 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.583 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.585 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.587 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.591 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.594 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.596 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.598 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.601 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.604 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.606 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.608 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.610 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.613 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:31:11.615 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:42:39.491 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:42:44.496 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:42:49.501 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75238 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:42:49.502 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:42:50.057 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:42:50.061 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:42:50.061 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:42:50.061 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:42:50.107 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:42:50.107 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 578 ms 
+2021/12/21 21:42:50.253 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29fc1a2b, org.springframework.security.web.context.SecurityContextPersistenceFilter@d1a10ac, org.springframework.security.web.header.HeaderWriterFilter@c446b14, org.springframework.security.web.authentication.logout.LogoutFilter@4bb8855f, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@5b69d40d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31fc71ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a7f0ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d0b0fd4, org.springframework.security.web.session.SessionManagementFilter@75b3673, org.springframework.security.web.access.ExceptionTranslationFilter@3e83c18, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a4ba480] 
+2021/12/21 21:42:50.527 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:42:50.544 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:42:50.551 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.294 seconds (JVM running for 26.803) 
+2021/12/21 21:42:56.829 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:42:56.829 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:42:56.830 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 21:42:56.964 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 21:42:56.966 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 21:42:56.969 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 21:42:56.969 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 21:42:56.969 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 21:42:56.969 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 21:42:57.126 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 21:43:16.126 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 21:43:16.131 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.134 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.134 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.136 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.136 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.137 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.138 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.139 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.139 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.140 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.140 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.141 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.142 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.143 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.143 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.144 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.144 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.145 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.146 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.147 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.147 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.148 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.148 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.149 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.149 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.150 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.151 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.152 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.152 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.153 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.154 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.155 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.155 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.156 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:43:16.156 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:43:16.157 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:47:38.797 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:47:43.802 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:47:48.811 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75261 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:47:48.811 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:47:49.364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:47:49.369 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:47:49.369 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:47:49.369 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:47:49.413 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:47:49.413 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms 
+2021/12/21 21:47:49.559 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74971ed9, org.springframework.security.web.context.SecurityContextPersistenceFilter@38548b19, org.springframework.security.web.header.HeaderWriterFilter@7cedfa63, org.springframework.security.web.authentication.logout.LogoutFilter@76954a33, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1bdbf9be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@303a5119, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71391b3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@131fcb6f, org.springframework.security.web.session.SessionManagementFilter@2b0b4d53, org.springframework.security.web.access.ExceptionTranslationFilter@73877e19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b2a3ff8] 
+2021/12/21 21:47:49.835 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:47:49.853 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:47:49.860 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.287 seconds (JVM running for 26.773) 
+2021/12/21 21:47:57.825 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:47:57.826 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:47:57.827 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 21:47:57.977 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 21:47:57.980 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 21:47:57.984 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 21:47:57.984 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 21:47:57.984 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 21:47:57.984 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 21:47:58.150 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 21:48:15.338 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 21:48:15.343 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.344 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.346 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.346 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.347 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.348 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.348 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.349 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.350 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.350 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.350 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.351 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.351 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.352 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.352 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.353 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.353 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.354 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.354 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.354 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.355 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.355 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.355 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.357 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.357 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.357 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.358 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.358 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.359 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.360 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.360 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.360 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.361 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.361 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.361 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.362 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.362 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.362 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.363 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.364 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.364 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.365 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.365 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.365 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.366 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.367 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.367 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.368 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.368 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.368 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.369 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:48:15.369 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:48:15.369 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:48:15.371 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:54:51.950 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 21:54:56.954 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 21:55:01.961 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75338 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 21:55:01.962 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 21:55:02.539 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 21:55:02.544 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:55:02.545 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 21:55:02.545 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 21:55:02.595 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 21:55:02.595 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 607 ms 
+2021/12/21 21:55:02.758 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76075d65, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e46d648, org.springframework.security.web.header.HeaderWriterFilter@73877e19, org.springframework.security.web.authentication.logout.LogoutFilter@3013909b, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@437ebf59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b0b4d53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bcb79c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a4ba480, org.springframework.security.web.session.SessionManagementFilter@3af356f, org.springframework.security.web.access.ExceptionTranslationFilter@6050462a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b587673] 
+2021/12/21 21:55:03.058 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 21:55:03.079 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 21:55:03.087 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.378 seconds (JVM running for 26.89) 
+2021/12/21 21:55:21.661 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 21:55:21.661 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 21:55:21.662 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 21:55:21.807 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 21:55:21.808 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 21:55:21.812 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 21:55:21.812 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 21:55:21.812 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 21:55:21.812 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 21:55:21.994 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 21:55:36.189 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 21:55:36.193 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.193 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.196 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.196 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.197 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.198 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.198 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.199 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.201 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.201 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.201 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.202 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.202 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.202 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.204 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.204 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.204 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.205 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.205 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.205 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.206 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.206 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.207 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.208 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.208 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.208 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.209 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.209 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.210 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.210 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.211 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.211 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.212 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.212 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.212 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.213 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.213 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.213 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.214 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.215 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.215 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.216 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.216 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.216 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.217 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.218 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.218 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.219 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.219 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.219 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.220 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 21:55:36.220 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - NOW: 2021-12-21 
+2021/12/21 21:55:36.220 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - TODAY: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 21:55:36.221 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:04:57.902 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:05:02.911 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:05:07.918 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75432 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:05:07.919 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:05:08.467 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:05:08.471 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:05:08.471 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:05:08.471 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:05:08.517 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:05:08.517 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 571 ms 
+2021/12/21 22:05:08.665 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74971ed9, org.springframework.security.web.context.SecurityContextPersistenceFilter@38548b19, org.springframework.security.web.header.HeaderWriterFilter@7cedfa63, org.springframework.security.web.authentication.logout.LogoutFilter@76954a33, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1bdbf9be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@303a5119, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71391b3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@131fcb6f, org.springframework.security.web.session.SessionManagementFilter@2b0b4d53, org.springframework.security.web.access.ExceptionTranslationFilter@73877e19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b2a3ff8] 
+2021/12/21 22:05:08.947 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:05:08.964 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:05:08.971 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.354 seconds (JVM running for 26.857) 
+2021/12/21 22:05:15.034 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:05:15.035 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:05:15.036 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 22:05:15.167 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:05:15.169 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:05:15.173 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:05:15.173 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:05:15.173 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:05:15.173 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:05:15.370 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:05:36.829 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 22:05:36.835 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.838 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.838 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.840 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.840 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.841 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.842 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.843 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.843 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.844 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.844 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.845 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.846 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.847 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.847 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.848 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.848 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.849 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.849 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.850 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.851 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.851 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.852 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.853 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.853 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.854 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.854 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.855 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.856 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.857 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.857 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.858 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.858 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.859 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:05:36.860 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:05:36.861 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Error occured while search request with no params given 
+2021/12/21 22:06:51.523 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:06:56.532 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:07:01.535 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75448 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:07:01.535 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:07:02.076 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:07:02.081 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:07:02.081 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:07:02.081 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:07:02.127 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:07:02.127 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 565 ms 
+2021/12/21 22:07:02.276 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d4a65c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6050462a, org.springframework.security.web.header.HeaderWriterFilter@2eb79cbe, org.springframework.security.web.authentication.logout.LogoutFilter@31fc71ab, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@46b695ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@231baf51, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cedfa63, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@aa004a0, org.springframework.security.web.session.SessionManagementFilter@340b7ef6, org.springframework.security.web.access.ExceptionTranslationFilter@12a160c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ceb7b5e] 
+2021/12/21 22:07:02.554 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:07:02.571 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:07:02.578 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.278 seconds (JVM running for 26.888) 
+2021/12/21 22:07:12.785 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:07:12.785 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:07:12.786 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 22:07:13.803 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 22:07:13.807 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.807 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.807 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.807 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.808 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.808 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.808 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.808 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.808 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.809 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.809 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.809 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.809 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.809 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.810 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.810 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.810 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.810 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.810 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.810 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.811 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.812 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.813 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.813 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.813 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:07:13.813 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:08:46.865 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:08:51.877 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:08:56.880 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75466 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:08:56.880 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:08:57.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:08:57.510 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:08:57.511 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:08:57.511 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:08:57.561 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:08:57.561 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 654 ms 
+2021/12/21 22:08:57.750 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27b71f50, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b0b4d53, org.springframework.security.web.header.HeaderWriterFilter@5bfc257, org.springframework.security.web.authentication.logout.LogoutFilter@66596a88, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@410e94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38548b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fca2a8f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383790cf, org.springframework.security.web.session.SessionManagementFilter@7e46d648, org.springframework.security.web.access.ExceptionTranslationFilter@231baf51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f404594] 
+2021/12/21 22:08:58.041 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:08:58.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:08:58.065 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.458 seconds (JVM running for 26.966) 
+2021/12/21 22:09:43.535 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:09:48.543 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:09:53.549 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75476 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:09:53.549 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:09:54.090 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:09:54.095 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:09:54.095 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:09:54.096 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:09:54.141 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:09:54.141 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 565 ms 
+2021/12/21 22:09:54.287 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27b71f50, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b0b4d53, org.springframework.security.web.header.HeaderWriterFilter@5bfc257, org.springframework.security.web.authentication.logout.LogoutFilter@66596a88, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@410e94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38548b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fca2a8f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383790cf, org.springframework.security.web.session.SessionManagementFilter@7e46d648, org.springframework.security.web.access.ExceptionTranslationFilter@231baf51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f404594] 
+2021/12/21 22:09:54.575 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:09:54.596 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:09:54.603 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.301 seconds (JVM running for 26.779) 
+2021/12/21 22:10:00.183 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:10:00.183 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:10:00.184 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 22:10:01.124 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 22:10:01.129 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.129 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.130 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.130 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.130 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.130 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.131 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.131 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.131 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.131 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.131 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.132 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.132 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.132 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.132 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.132 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.133 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.133 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.133 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.133 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.133 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.133 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.134 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.134 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.134 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.134 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.134 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.135 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.135 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.135 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.135 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.135 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.136 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.136 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.136 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:01.136 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:16.533 [http-nio-8080-exec-3] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 22:10:20.828 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:10:20.831 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:10:20.833 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:10:20.833 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:10:20.833 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:10:20.833 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:10:20.846 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:10:34.154 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 22:10:34.155 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.156 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.156 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.156 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.156 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.156 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.157 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.157 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.157 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.157 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.158 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.158 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.158 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.158 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.158 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.158 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.159 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.159 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.159 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.159 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.159 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.159 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.160 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.160 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.160 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.160 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.160 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.160 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.161 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.161 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.161 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.161 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.161 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.162 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.162 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:10:34.162 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:11:13.212 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:11:18.218 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:11:23.224 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75489 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:11:23.225 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:11:23.788 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:11:23.792 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:11:23.792 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:11:23.792 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:11:23.839 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:11:23.839 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms 
+2021/12/21 22:11:23.984 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b587673, org.springframework.security.web.context.SecurityContextPersistenceFilter@7cedfa63, org.springframework.security.web.header.HeaderWriterFilter@23ee75c5, org.springframework.security.web.authentication.logout.LogoutFilter@42c2f48c, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@771158fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@783efb48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e46d648, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bcf67e8, org.springframework.security.web.session.SessionManagementFilter@5bfc257, org.springframework.security.web.access.ExceptionTranslationFilter@6b63d445, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d4a65c6] 
+2021/12/21 22:11:24.259 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:11:24.277 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:11:24.283 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.301 seconds (JVM running for 26.791) 
+2021/12/21 22:12:06.620 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:12:06.620 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:12:06.621 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 22:12:07.690 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 22:12:07.694 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.694 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.694 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.694 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.695 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.695 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.695 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.695 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.695 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.696 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.696 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.696 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.696 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.696 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.697 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.697 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.697 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.697 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.698 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.698 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.698 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.698 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.698 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.698 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.699 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.699 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.699 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.699 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.699 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.700 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.700 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.700 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.700 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.700 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.700 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - today: Tue Dec 21 00:00:00 WAT 2021 
+2021/12/21 22:12:07.701 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Tue Sep 21 00:00:00 WAT 2021 
+2021/12/21 22:18:06.948 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:18:11.952 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:18:16.958 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75548 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:18:16.959 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:18:17.514 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:18:17.519 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:18:17.519 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:18:17.519 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:18:17.568 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:18:17.568 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 581 ms 
+2021/12/21 22:18:17.715 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27b71f50, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b0b4d53, org.springframework.security.web.header.HeaderWriterFilter@5bfc257, org.springframework.security.web.authentication.logout.LogoutFilter@66596a88, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@410e94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38548b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fca2a8f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383790cf, org.springframework.security.web.session.SessionManagementFilter@7e46d648, org.springframework.security.web.access.ExceptionTranslationFilter@231baf51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f404594] 
+2021/12/21 22:18:17.991 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:18:18.009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:18:18.016 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.301 seconds (JVM running for 26.752) 
+2021/12/21 22:18:44.144 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:18:44.144 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:18:44.145 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 22:18:44.310 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 22:18:48.414 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:18:48.416 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:18:48.419 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:18:48.419 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:18:48.419 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:18:48.419 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:18:48.434 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:19:04.047 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - search statements when no params given 
+2021/12/21 22:19:04.048 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.053 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.053 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.054 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.054 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.054 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.054 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.054 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.055 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.055 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.055 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.055 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.055 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.055 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.056 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.056 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.056 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.056 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.057 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.057 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.057 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.057 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.058 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.058 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.058 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.058 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.058 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.058 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.059 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.059 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.059 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.059 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.059 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.059 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:19:04.060 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - today: Wed Sep 01 00:00:00 WAT 2021 
+2021/12/21 22:19:04.060 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - threeMonthBack: Sat May 04 00:46:25 WAT 121 
+2021/12/21 22:29:34.234 [http-nio-8080-exec-7] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 22:29:38.568 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:29:38.569 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:29:38.570 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:29:38.570 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:29:38.570 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:29:38.571 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:29:38.573 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:33:31.394 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:33:36.399 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:33:41.406 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75655 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:33:41.406 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:33:41.962 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:33:41.966 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:33:41.967 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:33:41.967 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:33:42.013 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:33:42.013 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 579 ms 
+2021/12/21 22:33:42.159 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d3c232f, org.springframework.security.web.context.SecurityContextPersistenceFilter@34523d46, org.springframework.security.web.header.HeaderWriterFilter@56da52a7, org.springframework.security.web.authentication.logout.LogoutFilter@41f35f7c, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@3af9aa66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e83c18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4443ef6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b587673, org.springframework.security.web.session.SessionManagementFilter@7b208b45, org.springframework.security.web.access.ExceptionTranslationFilter@7923f5b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5965844d] 
+2021/12/21 22:33:42.436 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:33:42.453 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:33:42.460 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.299 seconds (JVM running for 26.781) 
+2021/12/21 22:33:50.068 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:33:50.068 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:33:50.069 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021/12/21 22:33:50.200 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:33:50.201 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:33:50.204 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:33:50.205 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:33:50.205 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:33:50.205 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:33:50.359 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:34:05.508 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - search based on the params given 
+2021/12/21 22:35:14.129 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - search based on the params given 
+2021/12/21 22:38:08.642 [http-nio-8080-exec-9] INFO  c.s.a.e.GlobalErrorExceptionHandler - MethodArgumentNotValidException set in 
+2021/12/21 22:38:08.642 [http-nio-8080-exec-9] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 22:38:08 WAT 2021, responseCode=99, responseMessage=Username cannot be blank) 
+2021/12/21 22:43:01.538 [http-nio-8080-exec-10] ERROR c.s.a.e.GlobalErrorExceptionHandler - ErrorReponse(message=Tue Dec 21 22:43:01 WAT 2021, responseCode=99, responseMessage=BAD REQUEST, PLEASE REVIEW AND TRY AGAIN) 
+2021/12/21 22:52:35.410 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final 
+2021/12/21 22:52:40.415 [main] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts). 
+2021/12/21 22:52:45.420 [main] INFO  c.s.a.AccountValidationServiceApplication - Starting AccountValidationServiceApplication using Java 1.8.0_301 on Jamess-MacBook-Pro.local with PID 75819 (/Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2/account-validation-service/target/classes started by jamesoladimeji in /Users/jamesoladimeji/Desktop/jobs/jobs1/java-projects-ecobank/squadio-coding-tasks-solutions2) 
+2021/12/21 22:52:45.420 [main] INFO  c.s.a.AccountValidationServiceApplication - No active profile set, falling back to default profiles: default 
+2021/12/21 22:52:45.991 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021/12/21 22:52:45.996 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:52:45.996 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2021/12/21 22:52:45.996 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2021/12/21 22:52:46.042 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021/12/21 22:52:46.042 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms 
+2021/12/21 22:52:46.190 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74971ed9, org.springframework.security.web.context.SecurityContextPersistenceFilter@38548b19, org.springframework.security.web.header.HeaderWriterFilter@7cedfa63, org.springframework.security.web.authentication.logout.LogoutFilter@76954a33, com.squadio.accountvalidationservice.authentication.filter.JwtFilter@1bdbf9be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@303a5119, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71391b3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@131fcb6f, org.springframework.security.web.session.SessionManagementFilter@2b0b4d53, org.springframework.security.web.access.ExceptionTranslationFilter@73877e19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b2a3ff8] 
+2021/12/21 22:52:46.472 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021/12/21 22:52:46.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021/12/21 22:52:46.497 [main] INFO  c.s.a.AccountValidationServiceApplication - Started AccountValidationServiceApplication in 21.316 seconds (JVM running for 26.818) 
+2021/12/21 22:53:25.620 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021/12/21 22:53:25.621 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021/12/21 22:53:25.630 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms 
+2021/12/21 22:53:25.783 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:53:25.784 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:53:25.788 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:53:25.788 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:53:25.788 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:53:25.788 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:53:25.908 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:57:13.655 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:57:13.656 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:57:13.656 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:57:13.656 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:57:13.656 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:57:13.656 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:57:13.657 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 22:58:53.409 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 22:58:53.411 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 22:58:53.411 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 22:58:53.411 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 22:58:53.411 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 22:58:53.411 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 22:58:53.412 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:02:52.971 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:02:52.971 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:02:52.971 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:02:52.971 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:02:52.972 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:02:52.972 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:02:52.972 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:04:09.072 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:05:26.622 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:05:26.624 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:05:26.639 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:07:25.213 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:07:25.214 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:07:25.214 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:07:25.214 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:07:25.215 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:07:25.215 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:07:25.216 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:07:26.144 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:07:26.144 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:07:26.146 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:23:20.210 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:23:20.216 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:23:20.221 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:23:20.221 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:23:20.221 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:23:20.222 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:23:20.239 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:23:21.051 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:23:21.052 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:23:21.060 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:24:48.064 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:24:48.064 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:24:48.064 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:24:48.064 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:24:48.064 [http-nio-8080-exec-5] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:24:48.065 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:24:48.066 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:24:48.747 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:24:48.747 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:24:48.749 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:30:13.056 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:30:13.057 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:30:13.057 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:30:13.058 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:30:13.058 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:30:13.058 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:30:13.059 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:30:13.796 [http-nio-8080-exec-3] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:30:13.839 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:30:13.840 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:30:13.848 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:32:29.601 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:32:29.601 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:32:29.602 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:32:29.602 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:32:29.602 [http-nio-8080-exec-7] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:32:29.602 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:32:29.602 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:32:30.240 [http-nio-8080-exec-9] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:32:30.304 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:32:30.304 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:32:30.308 [http-nio-8080-exec-10] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:34:37.922 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:34:37.923 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:34:37.923 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:34:37.923 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:34:37.923 [http-nio-8080-exec-3] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:34:37.923 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:34:37.924 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:34:38.554 [http-nio-8080-exec-6] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:34:38.601 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:34:38.602 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:34:38.607 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:36:46.501 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:36:46.501 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:36:46.501 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:36:46.501 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:36:46.501 [http-nio-8080-exec-9] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:36:46.501 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:36:46.502 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:36:47.124 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:36:47.165 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:36:47.168 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:36:47.174 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:40:59.650 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:40:59.651 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:40:59.651 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:40:59.651 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:40:59.651 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:40:59.651 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:40:59.652 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:41:00.297 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:41:00.338 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:41:00.338 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:41:00.341 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:43:02.969 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:43:02.969 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:43:02.969 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:43:02.969 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:43:02.969 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:43:02.969 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:43:02.970 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:43:03.619 [http-nio-8080-exec-4] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:43:03.649 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:43:03.649 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:43:03.651 [http-nio-8080-exec-3] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:46:47.392 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:46:47.392 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:46:47.392 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:46:47.392 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:46:47.392 [http-nio-8080-exec-8] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:46:47.392 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:46:47.393 [http-nio-8080-exec-8] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:46:48.037 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:46:48.080 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:46:48.080 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:46:48.088 [http-nio-8080-exec-9] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:46:48.152 [http-nio-8080-exec-2] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:48:08.899 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:48:08.899 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:48:08.899 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:48:08.899 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:48:08.899 [http-nio-8080-exec-6] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:48:08.900 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:48:08.904 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:48:09.577 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:48:09.617 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:48:09.617 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:48:09.619 [http-nio-8080-exec-7] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:48:09.670 [http-nio-8080-exec-10] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:48:49.216 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:48:49.218 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:48:49.218 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:48:49.218 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:48:49.218 [http-nio-8080-exec-4] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:48:49.218 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:48:49.219 [http-nio-8080-exec-4] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:48:49.861 [http-nio-8080-exec-6] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:48:49.909 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:48:49.909 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:48:49.913 [http-nio-8080-exec-5] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:48:49.980 [http-nio-8080-exec-8] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:55:29.409 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:55:29.410 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:55:29.411 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:55:29.411 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:55:29.412 [http-nio-8080-exec-2] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:55:29.413 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:55:29.414 [http-nio-8080-exec-2] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:55:30.034 [http-nio-8080-exec-3] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:55:30.090 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:55:30.090 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:55:30.105 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:55:30.169 [http-nio-8080-exec-5] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - username: Admin 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - Id: Admin78 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.s.AccountValidationService - MAP COUNT: 1 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - USERNAME: Admin 
+2021/12/21 23:58:47.019 [http-nio-8080-exec-1] INFO  c.s.a.controller.FrontController - my Logged Use: anonymousUser 
+2021/12/21 23:58:47.666 [http-nio-8080-exec-4] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:58:47.703 [http-nio-8080-exec-3] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
+2021/12/21 23:58:47.822 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - AUTHENTICATING USER 
+2021/12/21 23:58:47.823 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - getLoggedInUser: anonymousUser 
+2021/12/21 23:58:47.831 [http-nio-8080-exec-6] INFO  c.s.a.controller.FrontController - ERROR OCCURED WHILE AUTHENTICATING USER Admin, : Bad credentials 
+2021/12/21 23:58:47.894 [http-nio-8080-exec-5] ERROR c.s.a.a.filter.JwtFilter - Unable to get JWT Token or JWT Token has expired 
